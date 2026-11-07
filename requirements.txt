@@ -1,0 +1,30 @@
+# Dependencies of the released code. Versions are those the experiments ran with.
+# Packages without a pinned version were not in the original environment file.
+
+# Retrieval pipeline and database
+psycopg2-binary==2.9.10
+python-dotenv==1.1.0
+sentence-transformers==4.1.0
+torch==2.6.0
+isaacus
+langchain-text-splitters==0.3.8
+
+# Baselines, metrics and analysis
+rank_bm25
+numpy==2.2.5
+scipy==1.15.2
+matplotlib==3.10.9
+tqdm==4.67.1
+
+# LLM providers (question generation, faithfulness audits)
+openai==2.36.0
+google-genai==2.6.0
+
+# Notebooks (groq and google-generativeai: the Colab summary notebook)
+groq==0.22.0
+google-generativeai==0.8.5
+datasets==4.8.5
+pandas==2.3.3
+pydantic==2.11.3
+requests==2.32.3
+langchain==0.3.24

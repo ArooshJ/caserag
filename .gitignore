@@ -1,0 +1,12 @@
+# Agent planning notes, not part of the release
+.agent_workspace/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Credentials
+.env
+
+# Outputs the plot scripts write when run from the repository root
+research_paper/

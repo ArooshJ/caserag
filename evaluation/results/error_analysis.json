@@ -1,0 +1,454 @@
+[
+  {
+    "file": "model=1_k1=5_k2=30.json",
+    "k1": 5,
+    "k2": 30,
+    "n_queries": 615,
+    "mean_stage1_recall_ceiling": 0.133732992391529,
+    "mean_stage2_recall": 0.12993895445114959,
+    "pct_gt_lost_at_stage1": 0.8914141414141414,
+    "queries_total_stage1_loss": 467,
+    "records_missing_stage1_ids": 0,
+    "worst_queries": [
+      {
+        "query_id": "1224473",
+        "question": "What are the legal standards for reviewing delays in issuing and executing detention orders, and for considering the relevance of documents ",
+        "n_gt": 11
+      },
+      {
+        "query_id": "32122804",
+        "question": "Tender disqualification based on license validity, contractor's proof of valid license after submission, and impact of awarding contract to ",
+        "n_gt": 9
+      },
+      {
+        "query_id": "33043286",
+        "question": "Disputes over arbitrator jurisdiction in commercial lease termination cases involving alleged breach of agreement, misapplication of securit",
+        "n_gt": 9
+      },
+      {
+        "query_id": "785700",
+        "question": "Effect of substitution or omission of rules on proceedings initiated under prior versions of those rules, particularly concerning show cause",
+        "n_gt": 9
+      },
+      {
+        "query_id": "112866652",
+        "question": "When can criminal proceedings be instituted against a retired government servant for offenses allegedly committed during their service, part",
+        "n_gt": 8
+      },
+      {
+        "query_id": "129057189",
+        "question": "Arbitration clause requiring a deposit of a percentage of the claimed amount to invoke arbitration, and its validity in contracts of adhesio",
+        "n_gt": 8
+      },
+      {
+        "query_id": "24745928",
+        "question": "Compensation claims for injuries sustained in a road traffic accident, alleging rash and negligent driving of a commercial passenger vehicle",
+        "n_gt": 8
+      },
+      {
+        "query_id": "74665339",
+        "question": "What is the applicability of statutes of limitation and rules of pleading when a claim to ancestral property under Hindu law is contested, p",
+        "n_gt": 8
+      },
+      {
+        "query_id": "80253881",
+        "question": "What is the legal standard for establishing the admissibility of confessions and evidence recovered at the scene of a violent crime, particu",
+        "n_gt": 8
+      },
+      {
+        "query_id": "135811934",
+        "question": "What are the grounds for condoning significant delay in filing an appeal, specifically when a party cites family illness and involvement in ",
+        "n_gt": 7
+      },
+      {
+        "query_id": "134028165",
+        "question": "Dishonored cheques, legal notice, and the defense of prior or subsequent payment.",
+        "n_gt": 7
+      },
+      {
+        "query_id": "1351451",
+        "question": "When can a caste certificate claim for a Scheduled Tribe be challenged based on contradictory evidence of family members' caste status? What",
+        "n_gt": 7
+      },
+      {
+        "query_id": "1417249",
+        "question": "When is a land development authority obligated to approve building plans, and when can it unilaterally cancel an allotment agreement, partic",
+        "n_gt": 7
+      },
+      {
+        "query_id": "1651495",
+        "question": "False imputation of criminal offence with intent to harm reputation, abetment, and instigation of such offences.",
+        "n_gt": 7
+      },
+      {
+        "query_id": "1768865",
+        "question": "Search for cases concerning the validity of assessments and penalties imposed for alleged unregistered business operations, particularly whe",
+        "n_gt": 7
+      },
+      {
+        "query_id": "7879584",
+        "question": "Bail application in a criminal case under specific penal provisions, following interim bail, where the accused has joined the investigation ",
+        "n_gt": 7
+      },
+      {
+        "query_id": "94171194",
+        "question": "Compulsory retirement penalty imposed after disciplinary inquiry. Grounds for challenging disciplinary proceedings, including procedural irr",
+        "n_gt": 7
+      },
+      {
+        "query_id": "1174506",
+        "question": "Legal question regarding marital disputes, death by burning, and potential dowry death allegations. This includes the presumption of guilt, ",
+        "n_gt": 6
+      },
+      {
+        "query_id": "136214796",
+        "question": "What constitutes rash and negligent driving endangering human life, and what are the evidentiary requirements for proving such conduct, incl",
+        "n_gt": 6
+      },
+      {
+        "query_id": "1458961",
+        "question": "When are undisclosed purchases or bogus purchase vouchers disallowed as business expenses, and can an assessing officer reassess in a differ",
+        "n_gt": 6
+      }
+    ]
+  },
+  {
+    "file": "model=1_k1=5_k2=5.json",
+    "k1": 5,
+    "k2": 5,
+    "n_queries": 615,
+    "mean_stage1_recall_ceiling": 0.133732992391529,
+    "mean_stage2_recall": 0.10216405094453879,
+    "pct_gt_lost_at_stage1": 0.8914141414141414,
+    "queries_total_stage1_loss": 467,
+    "records_missing_stage1_ids": 0,
+    "worst_queries": [
+      {
+        "query_id": "1224473",
+        "question": "What are the legal standards for reviewing delays in issuing and executing detention orders, and for considering the relevance of documents ",
+        "n_gt": 11
+      },
+      {
+        "query_id": "32122804",
+        "question": "Tender disqualification based on license validity, contractor's proof of valid license after submission, and impact of awarding contract to ",
+        "n_gt": 9
+      },
+      {
+        "query_id": "33043286",
+        "question": "Disputes over arbitrator jurisdiction in commercial lease termination cases involving alleged breach of agreement, misapplication of securit",
+        "n_gt": 9
+      },
+      {
+        "query_id": "785700",
+        "question": "Effect of substitution or omission of rules on proceedings initiated under prior versions of those rules, particularly concerning show cause",
+        "n_gt": 9
+      },
+      {
+        "query_id": "112866652",
+        "question": "When can criminal proceedings be instituted against a retired government servant for offenses allegedly committed during their service, part",
+        "n_gt": 8
+      },
+      {
+        "query_id": "129057189",
+        "question": "Arbitration clause requiring a deposit of a percentage of the claimed amount to invoke arbitration, and its validity in contracts of adhesio",
+        "n_gt": 8
+      },
+      {
+        "query_id": "24745928",
+        "question": "Compensation claims for injuries sustained in a road traffic accident, alleging rash and negligent driving of a commercial passenger vehicle",
+        "n_gt": 8
+      },
+      {
+        "query_id": "74665339",
+        "question": "What is the applicability of statutes of limitation and rules of pleading when a claim to ancestral property under Hindu law is contested, p",
+        "n_gt": 8
+      },
+      {
+        "query_id": "80253881",
+        "question": "What is the legal standard for establishing the admissibility of confessions and evidence recovered at the scene of a violent crime, particu",
+        "n_gt": 8
+      },
+      {
+        "query_id": "135811934",
+        "question": "What are the grounds for condoning significant delay in filing an appeal, specifically when a party cites family illness and involvement in ",
+        "n_gt": 7
+      },
+      {
+        "query_id": "134028165",
+        "question": "Dishonored cheques, legal notice, and the defense of prior or subsequent payment.",
+        "n_gt": 7
+      },
+      {
+        "query_id": "1351451",
+        "question": "When can a caste certificate claim for a Scheduled Tribe be challenged based on contradictory evidence of family members' caste status? What",
+        "n_gt": 7
+      },
+      {
+        "query_id": "1417249",
+        "question": "When is a land development authority obligated to approve building plans, and when can it unilaterally cancel an allotment agreement, partic",
+        "n_gt": 7
+      },
+      {
+        "query_id": "1651495",
+        "question": "False imputation of criminal offence with intent to harm reputation, abetment, and instigation of such offences.",
+        "n_gt": 7
+      },
+      {
+        "query_id": "1768865",
+        "question": "Search for cases concerning the validity of assessments and penalties imposed for alleged unregistered business operations, particularly whe",
+        "n_gt": 7
+      },
+      {
+        "query_id": "7879584",
+        "question": "Bail application in a criminal case under specific penal provisions, following interim bail, where the accused has joined the investigation ",
+        "n_gt": 7
+      },
+      {
+        "query_id": "94171194",
+        "question": "Compulsory retirement penalty imposed after disciplinary inquiry. Grounds for challenging disciplinary proceedings, including procedural irr",
+        "n_gt": 7
+      },
+      {
+        "query_id": "1174506",
+        "question": "Legal question regarding marital disputes, death by burning, and potential dowry death allegations. This includes the presumption of guilt, ",
+        "n_gt": 6
+      },
+      {
+        "query_id": "136214796",
+        "question": "What constitutes rash and negligent driving endangering human life, and what are the evidentiary requirements for proving such conduct, incl",
+        "n_gt": 6
+      },
+      {
+        "query_id": "1458961",
+        "question": "When are undisclosed purchases or bogus purchase vouchers disallowed as business expenses, and can an assessing officer reassess in a differ",
+        "n_gt": 6
+      }
+    ]
+  },
+  {
+    "file": "model=1_k1=10_k2=100.json",
+    "k1": 10,
+    "k2": 100,
+    "n_queries": 615,
+    "mean_stage1_recall_ceiling": 0.1886466469393299,
+    "mean_stage2_recall": 0.1881046415192757,
+    "pct_gt_lost_at_stage1": 0.8377525252525253,
+    "queries_total_stage1_loss": 420,
+    "records_missing_stage1_ids": 0,
+    "worst_queries": [
+      {
+        "query_id": "785700",
+        "question": "Effect of substitution or omission of rules on proceedings initiated under prior versions of those rules, particularly concerning show cause",
+        "n_gt": 9
+      },
+      {
+        "query_id": "112866652",
+        "question": "When can criminal proceedings be instituted against a retired government servant for offenses allegedly committed during their service, part",
+        "n_gt": 8
+      },
+      {
+        "query_id": "129057189",
+        "question": "Arbitration clause requiring a deposit of a percentage of the claimed amount to invoke arbitration, and its validity in contracts of adhesio",
+        "n_gt": 8
+      },
+      {
+        "query_id": "24745928",
+        "question": "Compensation claims for injuries sustained in a road traffic accident, alleging rash and negligent driving of a commercial passenger vehicle",
+        "n_gt": 8
+      },
+      {
+        "query_id": "74665339",
+        "question": "What is the applicability of statutes of limitation and rules of pleading when a claim to ancestral property under Hindu law is contested, p",
+        "n_gt": 8
+      },
+      {
+        "query_id": "80253881",
+        "question": "What is the legal standard for establishing the admissibility of confessions and evidence recovered at the scene of a violent crime, particu",
+        "n_gt": 8
+      },
+      {
+        "query_id": "134028165",
+        "question": "Dishonored cheques, legal notice, and the defense of prior or subsequent payment.",
+        "n_gt": 7
+      },
+      {
+        "query_id": "1351451",
+        "question": "When can a caste certificate claim for a Scheduled Tribe be challenged based on contradictory evidence of family members' caste status? What",
+        "n_gt": 7
+      },
+      {
+        "query_id": "1417249",
+        "question": "When is a land development authority obligated to approve building plans, and when can it unilaterally cancel an allotment agreement, partic",
+        "n_gt": 7
+      },
+      {
+        "query_id": "1651495",
+        "question": "False imputation of criminal offence with intent to harm reputation, abetment, and instigation of such offences.",
+        "n_gt": 7
+      },
+      {
+        "query_id": "1768865",
+        "question": "Search for cases concerning the validity of assessments and penalties imposed for alleged unregistered business operations, particularly whe",
+        "n_gt": 7
+      },
+      {
+        "query_id": "7879584",
+        "question": "Bail application in a criminal case under specific penal provisions, following interim bail, where the accused has joined the investigation ",
+        "n_gt": 7
+      },
+      {
+        "query_id": "94171194",
+        "question": "Compulsory retirement penalty imposed after disciplinary inquiry. Grounds for challenging disciplinary proceedings, including procedural irr",
+        "n_gt": 7
+      },
+      {
+        "query_id": "136214796",
+        "question": "What constitutes rash and negligent driving endangering human life, and what are the evidentiary requirements for proving such conduct, incl",
+        "n_gt": 6
+      },
+      {
+        "query_id": "1458961",
+        "question": "When are undisclosed purchases or bogus purchase vouchers disallowed as business expenses, and can an assessing officer reassess in a differ",
+        "n_gt": 6
+      },
+      {
+        "query_id": "161298598",
+        "question": "When does a criminal complaint alleging criminal breach of trust or cheating become a civil dispute regarding non-payment of dues? What is t",
+        "n_gt": 6
+      },
+      {
+        "query_id": "163181",
+        "question": "What are the jurisdictional limits and procedural rules for amending a writ petition when alternative remedies exist, specifically concernin",
+        "n_gt": 6
+      },
+      {
+        "query_id": "1766656",
+        "question": "What is the legal standard for evaluating prosecutrix's conduct when determining consent and voluntariness in sexual offense cases, particul",
+        "n_gt": 6
+      },
+      {
+        "query_id": "1743982",
+        "question": "Entitlement to full back wages and benefits upon reinstatement after acquittal in a criminal case, when the employer had previously dismisse",
+        "n_gt": 6
+      },
+      {
+        "query_id": "184499029",
+        "question": "Police officers accused of demanding and accepting bribes from a complainant to dispose of a complaint. Issues include alleged threats of ar",
+        "n_gt": 6
+      }
+    ]
+  },
+  {
+    "file": "model=1_k1=200_k2=100.json",
+    "k1": 200,
+    "k2": 100,
+    "n_queries": 615,
+    "mean_stage1_recall_ceiling": 0.5692741991522478,
+    "mean_stage2_recall": 0.42744004414736136,
+    "pct_gt_lost_at_stage1": 0.44507575757575757,
+    "queries_total_stage1_loss": 164,
+    "records_missing_stage1_ids": 0,
+    "worst_queries": [
+      {
+        "query_id": "112866652",
+        "question": "When can criminal proceedings be instituted against a retired government servant for offenses allegedly committed during their service, part",
+        "n_gt": 8
+      },
+      {
+        "query_id": "1417249",
+        "question": "When is a land development authority obligated to approve building plans, and when can it unilaterally cancel an allotment agreement, partic",
+        "n_gt": 7
+      },
+      {
+        "query_id": "94171194",
+        "question": "Compulsory retirement penalty imposed after disciplinary inquiry. Grounds for challenging disciplinary proceedings, including procedural irr",
+        "n_gt": 7
+      },
+      {
+        "query_id": "1916278",
+        "question": "Circumstances under which criminal investigations or proceedings initiated based on bank official's complaints can be quashed, considering a",
+        "n_gt": 6
+      },
+      {
+        "query_id": "1736819",
+        "question": "When a court grants an injunction, what is the recourse available to a party when the opposing party fails to comply with the order and lowe",
+        "n_gt": 5
+      },
+      {
+        "query_id": "194242",
+        "question": "What is the scope of a licensing authority's discretion in renewing a license when the applicant has unapproved construction on the licensed",
+        "n_gt": 5
+      },
+      {
+        "query_id": "3109938",
+        "question": "When can disparity in electricity consumption be the sole basis for inferring suppressed production figures for excise duty purposes? What c",
+        "n_gt": 5
+      },
+      {
+        "query_id": "1066340",
+        "question": "What are the procedural requirements for challenging a prior criminal proceeding based on alleged suppression of evidence by the prosecution",
+        "n_gt": 4
+      },
+      {
+        "query_id": "1145475",
+        "question": "Grounds for challenging a prosecution for misbranded insecticides, specifically concerning: failure to provide opportunity for second sample",
+        "n_gt": 4
+      },
+      {
+        "query_id": "1486327",
+        "question": "Grounds for challenging the transfer of a criminal investigation between law enforcement agencies, focusing on allegations of bias, improper",
+        "n_gt": 4
+      },
+      {
+        "query_id": "185632387",
+        "question": "Legal implications of an alleged homicide during a marriage ceremony, where a subsequent statement to police by a victim's spouse allegedly ",
+        "n_gt": 4
+      },
+      {
+        "query_id": "1885496",
+        "question": "Jurisdiction of Registrar versus High Court to initiate proceedings under trademark law when a related matter is pending in the High Court; ",
+        "n_gt": 4
+      },
+      {
+        "query_id": "227510",
+        "question": "What constitutes wilful insubordination or disobedience of a lawful and reasonable order, and what evidence is sufficient to prove causing d",
+        "n_gt": 4
+      },
+      {
+        "query_id": "455389",
+        "question": "What is the legal standard for drawing an adverse inference when an employer fails to produce employment records relevant to a claim of 240 ",
+        "n_gt": 4
+      },
+      {
+        "query_id": "5907749",
+        "question": "What are the requirements for a claims tribunal to decide applications expeditiously, and when can a tribunal proceed based solely on docume",
+        "n_gt": 4
+      },
+      {
+        "query_id": "76135044",
+        "question": "Search for cases discussing the admissibility of evidence seized during a search conducted without independent witnesses, where the defense ",
+        "n_gt": 4
+      },
+      {
+        "query_id": "78092693",
+        "question": "What are the procedural requirements for a claims tribunal in deciding applications, including expeditious disposal, reliance on documents, ",
+        "n_gt": 4
+      },
+      {
+        "query_id": "83453230",
+        "question": "Conversion of leasehold rights to freehold, eligibility based on unregistered agreement to sell executed prior to mandatory registration req",
+        "n_gt": 4
+      },
+      {
+        "query_id": "860676",
+        "question": "What are the grounds for challenging a court's authority to grant interim relief that effectively resolves the merits of a landlord-tenant d",
+        "n_gt": 4
+      },
+      {
+        "query_id": "852166",
+        "question": "Motion to quash criminal proceedings for alleged violation of provisions related to economic offenses and procedural irregularities.",
+        "n_gt": 4
+      }
+    ]
+  }
+]

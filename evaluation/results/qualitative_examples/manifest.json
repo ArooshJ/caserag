@@ -1,0 +1,237 @@
+{
+ "retrieval_file": "evaluation/caserag/data/model=3_k1=200_k2=100_cosine_multiquery (1).json",
+ "examples": {
+  "E1": {
+   "sub_query_id": "102248239::2",
+   "claims": [
+    "T1",
+    "FM5"
+   ],
+   "subquery_record": "evaluation/caserag/results/qualitative_examples/subqueries/102248239__2.json",
+   "subquery_extracted_from": "evaluation/caserag/data/model=3_k1=200_k2=100_cosine_multiquery (1).json",
+   "cases": {
+    "source": [
+     {
+      "case_id": "102248239",
+      "copied_from": "il-pcsr_dataset/test_queries/102248239.json"
+     }
+    ],
+    "gold": [
+     {
+      "case_id": "1964308",
+      "copied_from": "il-pcsr_dataset/corpus/1964308.json"
+     },
+     {
+      "case_id": "1167918",
+      "copied_from": "il-pcsr_dataset/corpus/1167918.json"
+     }
+    ],
+    "retrieved": [
+     {
+      "case_id": "482508",
+      "copied_from": "il-pcsr_dataset/corpus/482508.json"
+     }
+    ]
+   }
+  },
+  "E2": {
+   "sub_query_id": "71632350::0",
+   "claims": [
+    "T2"
+   ],
+   "subquery_record": "evaluation/caserag/results/qualitative_examples/subqueries/71632350__0.json",
+   "subquery_extracted_from": "evaluation/caserag/data/model=3_k1=200_k2=100_cosine_multiquery (1).json",
+   "cases": {
+    "source": [
+     {
+      "case_id": "71632350",
+      "copied_from": "il-pcsr_dataset/test_queries/71632350.json"
+     }
+    ],
+    "gold": [
+     {
+      "case_id": "1225311",
+      "copied_from": "il-pcsr_dataset/corpus/1225311.json"
+     }
+    ],
+    "retrieved": [
+     {
+      "case_id": "1766147",
+      "copied_from": "il-pcsr_dataset/corpus/1766147.json"
+     }
+    ]
+   }
+  },
+  "E3": {
+   "sub_query_id": "199422116::4",
+   "claims": [
+    "T3"
+   ],
+   "subquery_record": "evaluation/caserag/results/qualitative_examples/subqueries/199422116__4.json",
+   "subquery_extracted_from": "evaluation/caserag/data/model=3_k1=200_k2=100_cosine_multiquery (1).json",
+   "cases": {
+    "source": [
+     {
+      "case_id": "199422116",
+      "copied_from": "il-pcsr_dataset/test_queries/199422116.json"
+     }
+    ],
+    "gold": [
+     {
+      "case_id": "406841",
+      "copied_from": "il-pcsr_dataset/corpus/406841.json"
+     },
+     {
+      "case_id": "1283572",
+      "copied_from": "il-pcsr_dataset/corpus/1283572.json"
+     }
+    ],
+    "retrieved": [
+     {
+      "case_id": "794096",
+      "copied_from": "il-pcsr_dataset/corpus/794096.json"
+     }
+    ]
+   }
+  },
+  "E4": {
+   "sub_query_id": "1059218::0",
+   "claims": [
+    "T4"
+   ],
+   "subquery_record": "evaluation/caserag/results/qualitative_examples/subqueries/1059218__0.json",
+   "subquery_extracted_from": "evaluation/caserag/data/model=3_k1=200_k2=100_cosine_multiquery (1).json",
+   "cases": {
+    "source": [
+     {
+      "case_id": "1059218",
+      "copied_from": "il-pcsr_dataset/test_queries/1059218.json"
+     }
+    ],
+    "gold": [
+     {
+      "case_id": "229273",
+      "copied_from": "il-pcsr_dataset/corpus/229273.json"
+     },
+     {
+      "case_id": "393648",
+      "copied_from": "il-pcsr_dataset/corpus/393648.json"
+     }
+    ]
+   }
+  },
+  "E5": {
+   "sub_query_id": "1174506::5",
+   "claims": [
+    "T5"
+   ],
+   "subquery_record": "evaluation/caserag/results/qualitative_examples/subqueries/1174506__5.json",
+   "subquery_extracted_from": "evaluation/caserag/data/model=3_k1=200_k2=100_cosine_multiquery (1).json",
+   "cases": {
+    "source": [
+     {
+      "case_id": "1174506",
+      "copied_from": "il-pcsr_dataset/test_queries/1174506.json"
+     }
+    ],
+    "gold": [
+     {
+      "case_id": "535796",
+      "copied_from": "il-pcsr_dataset/corpus/535796.json"
+     },
+     {
+      "case_id": "1035123",
+      "copied_from": "il-pcsr_dataset/corpus/1035123.json"
+     }
+    ],
+    "retrieved": [
+     {
+      "case_id": "413103",
+      "copied_from": "il-pcsr_dataset/corpus/413103.json"
+     }
+    ]
+   }
+  },
+  "E6": {
+   "sub_query_id": "112055300::0",
+   "claims": [
+    "FM4"
+   ],
+   "subquery_record": "evaluation/caserag/results/qualitative_examples/subqueries/112055300__0.json",
+   "subquery_extracted_from": "evaluation/caserag/data/model=3_k1=200_k2=100_cosine_multiquery (1).json",
+   "cases": {
+    "source": [
+     {
+      "case_id": "112055300",
+      "copied_from": "il-pcsr_dataset/test_queries/112055300.json"
+     }
+    ],
+    "retrieved": [
+     {
+      "case_id": "1889207",
+      "copied_from": "il-pcsr_dataset/corpus/1889207.json"
+     }
+    ]
+   }
+  },
+  "E7": {
+   "sub_query_id": "1175913::3",
+   "claims": [
+    "FM6"
+   ],
+   "subquery_record": "evaluation/caserag/results/qualitative_examples/subqueries/1175913__3.json",
+   "subquery_extracted_from": "evaluation/caserag/data/model=3_k1=200_k2=100_cosine_multiquery (1).json",
+   "cases": {
+    "source": [
+     {
+      "case_id": "1175913",
+      "copied_from": "il-pcsr_dataset/test_queries/1175913.json"
+     }
+    ],
+    "gold": [
+     {
+      "case_id": "1683465",
+      "copied_from": "il-pcsr_dataset/corpus/1683465.json"
+     },
+     {
+      "case_id": "508534",
+      "copied_from": "il-pcsr_dataset/corpus/508534.json"
+     }
+    ],
+    "retrieved": [
+     {
+      "case_id": "139996215",
+      "copied_from": "il-pcsr_dataset/corpus/139996215.json"
+     },
+     {
+      "case_id": "837924",
+      "copied_from": "il-pcsr_dataset/corpus/837924.json"
+     }
+    ]
+   }
+  },
+  "E8": {
+   "sub_query_id": "62227563::0",
+   "claims": [
+    "FM7"
+   ],
+   "subquery_record": "evaluation/caserag/results/qualitative_examples/subqueries/62227563__0.json",
+   "subquery_extracted_from": "evaluation/caserag/data/model=3_k1=200_k2=100_cosine_multiquery (1).json",
+   "cases": {
+    "source": [
+     {
+      "case_id": "62227563",
+      "copied_from": "il-pcsr_dataset/test_queries/62227563.json"
+     }
+    ],
+    "gold": [
+     {
+      "case_id": "877826",
+      "copied_from": "il-pcsr_dataset/corpus/877826.json"
+     }
+    ]
+   },
+   "faithfulness_record": "evaluation/caserag/results/qualitative_examples/faithfulness_877826.json (from evaluation/caserag/results/corpus_summary_faithfulness_results.json)"
+  }
+ }
+}

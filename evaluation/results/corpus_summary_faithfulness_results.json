@@ -1,0 +1,4535 @@
+{
+  "_summary": {
+    "judged": 500,
+    "verdicts": {
+      "faithful": 393,
+      "partial": 79,
+      "unfaithful": 28,
+      "unparsed": 0
+    },
+    "verdict_pct": {
+      "faithful": 78.6,
+      "partial": 15.8,
+      "unfaithful": 5.6,
+      "unparsed": 0.0
+    },
+    "flag_counts": {
+      "not_grounded": 51,
+      "issues_inaccurate": 21,
+      "holding_inaccurate": 45
+    },
+    "flag_pct": {
+      "not_grounded": 10.2,
+      "issues_inaccurate": 4.2,
+      "holding_inaccurate": 9.0
+    }
+  },
+  "_sampling": {
+    "corpus_total": 3183,
+    "skipped_no_summary": 0,
+    "sample_size": 500,
+    "seed": 42
+  },
+  "records": [
+    {
+      "case_id": "1000760",
+      "title": "Ashok Kumar v. State Of Rajasthan, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are directly supported by the source text with no fabrication or distortion."
+    },
+    {
+      "case_id": "1006709",
+      "title": "Mathura Prasad Bajoo Jaiswal & Ors v. Dossibai N. B. Jeejeebhoy, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are supported by source; summary accurately captures the res judicata holding."
+    },
+    {
+      "case_id": "1013581",
+      "title": "Shri Vallabh Glass Works Ltd. v. Union Of India & Others, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Holding omits the wired glass distinction and says 'after September 28, 1973' instead of 'between September 28, 1973 and February 20, 1976'."
+    },
+    {
+      "case_id": "103037015",
+      "title": "K.Manjusree Etc v. State Of A.P & Anr, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are accurately drawn from and supported by the source text."
+    },
+    {
+      "case_id": "1046996",
+      "title": "Commissioner Of Customs & Central v. M/S Hongo India Ltd. & Anr, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are directly supported by the source text."
+    },
+    {
+      "case_id": "1057687",
+      "title": "Uco Bank v. Presiding Officer & Another, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding directly match the source text."
+    },
+    {
+      "case_id": "1059883",
+      "title": "K.T.M.S. Mohd. & Anr v. Union Of India, 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Facts and issues are grounded; holding matches source's outcome of setting aside convictions. Third appellant omitted but not misleading."
+    },
+    {
+      "case_id": "1067439",
+      "title": "Prahlad Singh Bhati v. N.C.T., Delhi & Anr, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects source: facts, issues, and holding (setting aside orders due to lack of jurisdiction) all supported by text."
+    },
+    {
+      "case_id": "1072623",
+      "title": "State Of Maharashtra v. Krishnamurti Laxmipati Naidu, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts, legal issues, and holding all directly supported by source text."
+    },
+    {
+      "case_id": "107472",
+      "title": "Flection Commission, India v. Saka Venkata Subba Raounion Of, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately captures key facts, litigated issues, and the court's holding on jurisdiction and article 192."
+    },
+    {
+      "case_id": "1108282",
+      "title": "Dhanraj v. New India Assurance Co. Ltd. & Anr, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "The appellant's name 'Dhanraj' is fabricated; not in source. Legal issues, holding, and other facts are accurate."
+    },
+    {
+      "case_id": "1114158",
+      "title": "Cadila Healthcare Limited v. Cadila Pharmaceuticals Limited, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Company names not in source; specific holding about non-interference and expedition not in truncated source text."
+    },
+    {
+      "case_id": "1117226",
+      "title": "Collector Land Acquisition v. Mst. Katiji & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are directly supported by the source text without invention or distortion."
+    },
+    {
+      "case_id": "1141174",
+      "title": "State Of U.P v. Neeraj Awasthi & Others, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Rajnish Varshney was the original writ petitioner/respondent, not 'the appellant'; framing is misleading but issues and holding direction are correct."
+    },
+    {
+      "case_id": "1157915",
+      "title": "State Of U.P v. Paras Nath Singh & Ors, 2019",
+      "verdict": "partial",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Holding wrongly states appeal was 'dismissed'—it was allowed. Key facts misidentify appellant as convicted party."
+    },
+    {
+      "case_id": "1167532",
+      "title": "Bhagwati Prasad v. Shri Chandramaul, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects pleadings, issues litigated (tenant vs. licensee, ejectment/rent), and final holding on ejectment, licensee status, and mesne profits."
+    },
+    {
+      "case_id": "1177051",
+      "title": "State Of Madras v. C. P. Sarathy & Another, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are accurately drawn from the source, correctly reflecting the appeal was allowed."
+    },
+    {
+      "case_id": "1181080",
+      "title": "Century Traders v. Roshan Lal Duggar Co, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects source facts, issues, and holding on RAJARANI mark and interim injunction."
+    },
+    {
+      "case_id": "119878122",
+      "title": "M/S Harchand Singh Gian Singh v. State Of Punjab Nd Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts, issues, and holding are all directly supported by the source text."
+    },
+    {
+      "case_id": "1200711",
+      "title": "State Of Himachal Pradesh v. Lekh Raj & Anr, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects source facts, issues litigated, and the court's holding to partly allow the appeal."
+    },
+    {
+      "case_id": "1214358",
+      "title": "Income-Tax Officer, Alleppey v. M.C. Ponnoose & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are directly supported by the source text."
+    },
+    {
+      "case_id": "121990",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding accurately reflect the source text with no fabrication or misstatement."
+    },
+    {
+      "case_id": "1222516",
+      "title": "Narandas Karsondas v. S.A. Kamtam & Anr, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are supported by the source text without invention or distortion."
+    },
+    {
+      "case_id": "12234920",
+      "title": "Air India v. Cochin International Airport Ltd, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts, legal issues, and holding all directly supported by source text without invention or distortion."
+    },
+    {
+      "case_id": "1231443",
+      "title": "Corporation Of Calcutta v. Liberty Cinema, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding are accurately drawn from the source with correct outcome direction."
+    },
+    {
+      "case_id": "1242882",
+      "title": "S. Rm. Ar. S. Sp. Sathappa Chettiar v. S. Rm. Ar. Rm. Ramanathan Chettiar, 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Fabricated names for appellant/respondent not in source; incorrect 'uncle' relationship; first issue was discussed but explicitly left undecided."
+    },
+    {
+      "case_id": "1246561",
+      "title": "Synthetics & Chemicals Ltd. Etc v. State Of U.P. & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Holding misstates outcome; source analysis indicates States lack authority for vend fee, but does not declare excise duty on industrial alcohol unconstitutional."
+    },
+    {
+      "case_id": "1246653",
+      "title": "Managing Director Ecil Hyderabad v. B. Karunakar Etc. Etc, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Holding imprecise: prospective operation was Ramzan Khan's ruling, not this court's; dismissal of appeals not explicitly stated in source."
+    },
+    {
+      "case_id": "1257527",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately captures key facts, litigated issues, and holding; minor attribution imprecision does not affect faithfulness."
+    },
+    {
+      "case_id": "1262724",
+      "title": "Sm. Saila Bala Dassi v. Sm. Nirmala Sundari Dassi, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Appellant's name 'Sm. Saila Bala Dassi' not found in source text; limitation issue is tangential to this appeal's main question."
+    },
+    {
+      "case_id": "1264252",
+      "title": "State Of Jammu & Kashmir v. Triloki Nath Khosa & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects the case: classification based on educational qualifications for promotion upheld, grounded in source analysis and precedents."
+    },
+    {
+      "case_id": "1265608",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects source facts, issues, and holding without invention or distortion."
+    },
+    {
+      "case_id": "1271682",
+      "title": "Pramatha Nath Taluqdar v. Saroj Ranjan Sarkar, 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Source is the dissenting opinion; summary inverts the holding by attributing the dissent's position to the court."
+    },
+    {
+      "case_id": "1292736",
+      "title": "The Lord Krishna Textile Mills v. Its Workmen, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are directly supported by the source text without invention or distortion."
+    },
+    {
+      "case_id": "1315447",
+      "title": "Mohd. Iqbal, Ahmad v. State Of Andhra Pradesh, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Omits Section 161 IPC conviction alongside Prevention of Corruption Act conviction; otherwise fully faithful."
+    },
+    {
+      "case_id": "1318756",
+      "title": "Yoginath D. Bagde v. State Of Maharashtra & Anr, 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Source text is truncated; the Supreme Court's actual holding is never stated. Summary fabricates the outcome (appeal allowed, reinstatement directed)."
+    },
+    {
+      "case_id": "1326957",
+      "title": "Kalwa Devadattam & Two Others v. The Union Of India & Others, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding accurately reflect the source text without invention or distortion."
+    },
+    {
+      "case_id": "135069664",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Source text is truncated; final holding not shown. Summary asserts court 'set aside' orders, but operative outcome is not verifiable from provided text."
+    },
+    {
+      "case_id": "1353917",
+      "title": "Anil Rishi v. Gurbaksh Singh, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding align with source; appeal allowed, order set aside, original issue revived—correctly stated."
+    },
+    {
+      "case_id": "136204151",
+      "title": "Roop Chand v. State Of Haryana & Others, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding align with source; petitioner correctly identified, dismissal and reasoning faithfully represented."
+    },
+    {
+      "case_id": "1367404",
+      "title": "M/S. Amar Nath Om Parkash & Ors v. State Of Punjab & Ors. Etc, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects appellant's challenge, tax vs. fee issue, and court upholding Act and Section 23-A as discussed in source."
+    },
+    {
+      "case_id": "136788839",
+      "title": "Supreme Court Legal Aid Committee v. Union Of India & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Holding misstates threshold as 'two years' (petition's prayer, not ruling's 'half max punishment' standard); fabricates State Government information direction."
+    },
+    {
+      "case_id": "1372066",
+      "title": "Smt. Kamla Rani & Ors v. Texmaco Ltd, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key fact misstates that petitions were 'transferred' to Texmaco; assets were transferred. Holding imprecisely says 'upholding eviction orders' for all 6, though 4 were dismissed at trial."
+    },
+    {
+      "case_id": "1375607",
+      "title": "Hira Lal Jain v. State, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issue, and holding accurately reflect the source text with no fabrication or distortion."
+    },
+    {
+      "case_id": "1377006",
+      "title": "Kondiba Dagadu Kadam v. Savitkibai Sopan Gujar An Dors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issue, and holding are directly supported by the source text."
+    },
+    {
+      "case_id": "1392201",
+      "title": "Muhammad Abdul Hadi v. Baldeo Sahai, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are directly supported by the source text with no inventions or distortions."
+    },
+    {
+      "case_id": "1410916",
+      "title": "Haryana State Coop. Land Dev. Bank v. Neelam, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are accurately drawn from the source text with correct outcome direction."
+    },
+    {
+      "case_id": "1443197",
+      "title": "P.Kasilingam & Ors v. P.S.G. College Of Technology & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects the core issue, facts, and holding that professional/technical institutions are excluded from the Act and Rules."
+    },
+    {
+      "case_id": "1460988",
+      "title": "Binay Kumar Singh v. The State Of Bihar, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding accurately reflect the source text without fabrication or distortion."
+    },
+    {
+      "case_id": "1479705",
+      "title": "Munshi Ram & Others v. Delhi Administration, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts, issues, and holding are all accurately drawn from the source text without invention or distortion."
+    },
+    {
+      "case_id": "1483619",
+      "title": "Yogesh Singh Sahota v. Niranjan Lal Gupta, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are directly supported by the source text with no invention or distortion."
+    },
+    {
+      "case_id": "1487227",
+      "title": "Dalip Singh & Ors v. State Of Punjab, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts say convicted for five murders; Supreme Court only upheld three (Teja, Sucha, Pal Kaur)."
+    },
+    {
+      "case_id": "1493500",
+      "title": "State Of Punjab & Anr v. Surjit Singh & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Facts, issues, and holding are supported by source; appeals dismissed, High Court order granting min pay scale with DA upheld."
+    },
+    {
+      "case_id": "15039",
+      "title": "Martand Pandharinath Chaudhari v. Radhabai Krishnarao Deshmukh, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts mischaracterize suit as 'among Hindu brothers' when plaintiff was Krishnarao's daughter; holding's survivorship implication contradicts paragraph 12."
+    },
+    {
+      "case_id": "1505859",
+      "title": "Sharad Birdhi Chand Sarda v. State Of Maharashtra, 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "First legal issue (heinous crime/bail) is fabricated; holding not stated in source text."
+    },
+    {
+      "case_id": "1506133",
+      "title": "Sewakram Sobhani v. R.K. Karanjia, Chief Editor, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts, legal issue, and majority holding accurately reflect the source text."
+    },
+    {
+      "case_id": "1506749",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Holding direction correct (Section 302 upheld), but 'intention to cause death' misstates the actual legal test applied: intention to inflict bodily injury sufficient in the ordinary course of nature to cause death."
+    },
+    {
+      "case_id": "1514049",
+      "title": "New Prakash Transport Co. Ltd v. New Suwarna Transport Co. Ltd, 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Suwarna mischaracterized as merely 'another party'; it was the existing sole operator. Holding direction matches reasoning but source text is truncated."
+    },
+    {
+      "case_id": "1521945",
+      "title": "Satvir Singh & Ors v. State Of Punjab & Anr, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Issue 2 imprecisely framed; actual issue is whether 304B applies to attempted suicide, not generically about 'death or imprisonment.'"
+    },
+    {
+      "case_id": "152464",
+      "title": "State Of U.P v. Dr. Ravindra Prakash Mittal, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are directly supported by the source text."
+    },
+    {
+      "case_id": "1536859",
+      "title": "Thungabhadra Industries Ltd v. The Government Of Andhra Pradesh, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": false,
+      "holding_accurate": true,
+      "justification": "First issue misattributed: hydrogenated oil construction was decided in separate prior appeal; Court explicitly stated it was irrelevant to this review appeal."
+    },
+    {
+      "case_id": "1537954",
+      "title": "Balwant Narayan Bhagde v. M. D. Bhagwat & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects key facts, litigated issues, and court's holding as stated in source."
+    },
+    {
+      "case_id": "157180567",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding are directly supported by the source text."
+    },
+    {
+      "case_id": "157214",
+      "title": "Mohammad Hasnuddin v. State Of Maharashtra, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issue, and holding directly match the source text without invention or distortion."
+    },
+    {
+      "case_id": "1576104",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are directly supported by the source text without fabrication or distortion."
+    },
+    {
+      "case_id": "1589322",
+      "title": "Dahyabhai Chhaganbhai Thakker v. State Of Gujarat, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects murder charge, insanity defense, and appeal dismissal upholding conviction based on lack of insanity evidence."
+    },
+    {
+      "case_id": "1617513",
+      "title": "Hukumchand Mills Ltd v. Commissioner Of Income-Tax, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts, legal issues, and holding are all supported by the source text without invention or distortion."
+    },
+    {
+      "case_id": "1618121",
+      "title": "Bhupinder Kaur & Others v. State Of Punjab & Another, 2020",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary fabricates 'Bhupinder Kaur and others' as appellants; source text does not name them."
+    },
+    {
+      "case_id": "1622758",
+      "title": "The State Of Haryana & Ors v. Ram Kumar Mann, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are accurately derived from and supported by the source text."
+    },
+    {
+      "case_id": "162306",
+      "title": "The Newspapers Ltd v. The State Industrial Tribunal, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key_facts, legal_issues, and holding are directly supported by the source text with no fabrication."
+    },
+    {
+      "case_id": "1626264",
+      "title": "The State Of Bombay v. Kathi Kalu Oghad & Others, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": false,
+      "holding_accurate": true,
+      "justification": "Second issue misframes: s.27 was challenged under Art.14, not Art.20(3). Holding on s.27 is correctly upheld as constitutional."
+    },
+    {
+      "case_id": "1627481",
+      "title": "Commissioner Of Income-Tax v. Tata Locomotive & Engineering, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects facts, issue, and holding that surplus from devaluation was not taxable as capital receipt."
+    },
+    {
+      "case_id": "1628260",
+      "title": "Smt. Nilabati Behera Alias Lalit v. State Of Orissa & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are supported by source; minor 'appellant' vs 'petitioner' terminology is negligible."
+    },
+    {
+      "case_id": "1632704",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issue, and holding are accurately supported by the source text."
+    },
+    {
+      "case_id": "1643138",
+      "title": "Naresh Shridhar Mirajkar & Ors v. State Of Maharashtra & Anr, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Holding is imprecise: omits main outcome (petitions dismissed) and conflates inherent jurisdiction acknowledgment with the actual decision."
+    },
+    {
+      "case_id": "1647965",
+      "title": "Jasbir Singh Chhabra & Ors v. State Of Punjab & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding elements are directly supported by the source text."
+    },
+    {
+      "case_id": "1648125",
+      "title": "Anant Mills Co. Ltd v. State Of Gujarat & Ors, 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Fabricates 'Anant Mills Co. Ltd.' as appellant; inverts holding by claiming Court upheld Section 406(2)(e) and Rule 42, when source shows they were declared null and void."
+    },
+    {
+      "case_id": "1671318",
+      "title": "Director, Institute Of v. Smt. Pushpa Srivastava, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are supported by the source text accurately."
+    },
+    {
+      "case_id": "1683212",
+      "title": "Ramawati Devi v. State Of Bihar, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding directly supported by source text with no fabrication or inversion."
+    },
+    {
+      "case_id": "1683465",
+      "title": "General Manager, Kerala S.R.T.C v. Susamma Thomas, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding directly supported by source text without invention or distortion."
+    },
+    {
+      "case_id": "1695101",
+      "title": "Patel Roadways Limited, Bombay v. Prasad Trading Company, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects source facts, issues, and holding; only describes one of two cases but no invention or distortion."
+    },
+    {
+      "case_id": "1734503",
+      "title": "Supreme Court Reports [1962] v. The Governing Body Of The Nalanda, 1962",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding align with the source text without invention or distortion."
+    },
+    {
+      "case_id": "1736128",
+      "title": "Gurpreet Singh v. Union Of India, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Holding omits key ruling that decree holder cannot re-open satisfaction or seek re-appropriation; mischaracterizes nuanced Prem Nath Kapur affirmation."
+    },
+    {
+      "case_id": "1752505",
+      "title": "Seth Nand Lal & Anr v. State Of Haryana & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Source text is truncated; explicit final dismissal of appeals not visible, though analysis supports direction."
+    },
+    {
+      "case_id": "1753534",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are directly supported by the source text with no invention or distortion."
+    },
+    {
+      "case_id": "178640246",
+      "title": "Prag Ice & Oil Mills & Anr. Etc v. Union Of India [Alongwith, 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Holding inverts court's reasoning: court explicitly rejected Ninth Schedule derivative immunity, not upheld order on that basis."
+    },
+    {
+      "case_id": "179488205",
+      "title": "Oriental Insuracne Company Ltd v. Timal & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding directly supported by source text."
+    },
+    {
+      "case_id": "1803980",
+      "title": "Narendra Gopal Vidyarthi v. Rajat Vidyarthi, 2020",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Holding reversed: SC held title vested in appellant, not limited interest. Bishan Sahai is grandfather, not father."
+    },
+    {
+      "case_id": "183301363",
+      "title": "Oriental Insurance Co. Ltd v. Ranjit Pandey & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary names 'Oriental Insurance Co. Ltd.' as appellant, which is not stated in source text; constitutes minor invention."
+    },
+    {
+      "case_id": "1840759",
+      "title": "Hari Har Singh & Ors v. The State Of U.P, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Appellants are five brothers from two families - accurate. Issues and holding correctly stated. Minor: some were not all brothers."
+    },
+    {
+      "case_id": "1849710",
+      "title": "The New India Assurance Co. Ltd v. Kashmiri Lal & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Holding says 'dismissed' but source states petition was 'disposed of' after issuing general directions, not dismissed."
+    },
+    {
+      "case_id": "185065833",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are directly supported by the source text without invention or distortion."
+    },
+    {
+      "case_id": "185550",
+      "title": "Commissioner Of Income-Tax v. S.Teja Singh, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects facts, issue, and holding as stated in source."
+    },
+    {
+      "case_id": "1858688",
+      "title": "Sumita Singh v. Kumar Sanjay & Anr, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects wife's transfer petition, grounds, issue of convenience, and granting of transfer to Delhi."
+    },
+    {
+      "case_id": "1868080",
+      "title": "Brij Lal By Lrs. & Ors v. State Of Haryana & Ors. Etc. Etc, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects the 1961 surplus declaration, 1997 remand, the legal issue, and the holding remitting to the High Court."
+    },
+    {
+      "case_id": "187501619",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects source: facts, issues, and holding all supported by judgment text."
+    },
+    {
+      "case_id": "1888316",
+      "title": "Roshan Lal Tandon v. Union Of India, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects petitioner's background, the main constitutional issue, and the court's holding based on one-class principle."
+    },
+    {
+      "case_id": "1890232",
+      "title": "Satpal Singh v. State Of Haryana, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding are supported by the source text without invention or distortion."
+    },
+    {
+      "case_id": "1890797",
+      "title": "Satinder Singh & Others v. Amrao Singh & Others, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Source text is truncated and never specifies '4% per annum' interest rate; only mentions 'reasonable rate' need to examine."
+    },
+    {
+      "case_id": "1894967",
+      "title": "Ramesh Yadav v. District Magistrate, Etah, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding accurately reflect the source text without invention or distortion."
+    },
+    {
+      "case_id": "1902618",
+      "title": "Kumar Raj Krishna Prasad Lal v. Barabani Coal Concern Ltd., 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": false,
+      "holding_accurate": true,
+      "justification": "Legal issues miss the actual issue: whether to grant leave to appeal. Underlying title/estoppel issues were already decided."
+    },
+    {
+      "case_id": "1925650",
+      "title": "Harish Chandra Bajpai v. Triloki Singh, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Holding direction correct, but 'time-barred' presented as condition of holding, while source treats it as one supporting factor among several."
+    },
+    {
+      "case_id": "1932635",
+      "title": "Ebrahim Aboobakar & Another v. Custodian General Ofevacuee, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts supported by source, issues genuinely litigated, and holding correctly states dismissal and reasons."
+    },
+    {
+      "case_id": "1938186",
+      "title": "State Of Haryana v. Shri P.C. Wadhwa, Ips Inspector, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects source facts, issues, and holding without invention or distortion."
+    },
+    {
+      "case_id": "1979603",
+      "title": "Smt. Rukmanibai Gupta v. Collector Jabalpur & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects key facts, issues litigated, and court's holding that Clause 15 is an arbitration agreement."
+    },
+    {
+      "case_id": "1986525",
+      "title": "State Of Rajasthan & Ors v. Daya Lal & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Both questions, their negative resolution, and the setting aside of High Court orders are accurately reflected from the source."
+    },
+    {
+      "case_id": "1986531",
+      "title": "Citibank N.A v. Juggilal Kamlapat Jute Mills Co, 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Source is truncated; final holding/decree amounts (Rs. 60 lakhs decree, 12.5% interest) are not stated in source text."
+    },
+    {
+      "case_id": "1986999",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and the holding are accurately drawn from and supported by the source text."
+    },
+    {
+      "case_id": "1996908",
+      "title": "Dhulabhai & Others v. The State Of Madhya Pradesh, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Holding direction matches analysis; 'paid under protest' is not explicitly stated in source, though refund suit is mentioned."
+    },
+    {
+      "case_id": "211490",
+      "title": "Som Datt Datta v. Union Of India & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding are supported by the source text without invention or distortion."
+    },
+    {
+      "case_id": "245926",
+      "title": "Union Of India & Ors v. M. Bhaskaran, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are directly supported by the source text with no invention or distortion."
+    },
+    {
+      "case_id": "259313",
+      "title": "Textile Machinery Corporation v. The Commissioner Of Income-Tax, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are directly supported by the source text."
+    },
+    {
+      "case_id": "259610",
+      "title": "Trojan & Co. Ltd v. Rm. N. N. Nagappa Chettiar, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are supported by the source text without invention."
+    },
+    {
+      "case_id": "268670",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are directly supported by the source text with no invention or distortion."
+    },
+    {
+      "case_id": "268805",
+      "title": "Delhi Transport Corporation v. D.T.C. Mazdoor Congress, 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary fabricates Articles 16 and 21; source only references Article 14. Holding direction also unverified from source."
+    },
+    {
+      "case_id": "27422",
+      "title": "[UNKNOWN] v. Ramana, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Facts match source; Industrial Disputes Act issue was genuinely raised; holding correctly states appeal dismissed and removal upheld."
+    },
+    {
+      "case_id": "290532",
+      "title": "State Of Haryana v. Mukesh Kumar & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding are supported by the source text. Dismissal of SLP and criticism of State are accurate."
+    },
+    {
+      "case_id": "328748",
+      "title": "N. Meera Rani v. Government Of Tamil Nadu & Anr, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Holding misstates reasoning: court quashed because authority failed to consider prospect of release, not because there was 'no prospect of release.'"
+    },
+    {
+      "case_id": "342595",
+      "title": "State Of West Bengal v. S. N. Basak, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Respondent's name 'S. N. Basak' not in source; other facts, issues, and holding are accurate."
+    },
+    {
+      "case_id": "35299175",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are directly supported by the source text with no inventions."
+    },
+    {
+      "case_id": "356341",
+      "title": "Vinod Dwivedi v. The State Of Madhya Pradesh, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are accurately drawn from and supported by the source text."
+    },
+    {
+      "case_id": "36808802",
+      "title": "U.P.S.R.T.C v. Rajender Singh & Anr, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts supported by source; issues genuinely litigated; holding correctly states dismissal and upheld award."
+    },
+    {
+      "case_id": "37254300",
+      "title": "Somawanti v. State Of Punjab & Others, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issue, and holding are directly supported by the source text with no fabrication or distortion."
+    },
+    {
+      "case_id": "379222",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding accurately reflect the source text with no invention or distortion."
+    },
+    {
+      "case_id": "439549",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": false,
+      "holding_accurate": true,
+      "justification": "First legal issue fabricates a 'denying bail' question not litigated; case is conviction/death reference appeal, not bail."
+    },
+    {
+      "case_id": "442524",
+      "title": "A. Venkatasubbiah Naidu v. S. Chellappan & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Plaintiff's name 'A. Venkatasubbiah Naidu' is fabricated; not found in source text. Other facts, issues, and holding are accurate."
+    },
+    {
+      "case_id": "447461",
+      "title": "Ram Sewak Yadav v. Hussain Kamil Kidwai & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, the single legal issue, and the holding accurately reflect the source text."
+    },
+    {
+      "case_id": "455901",
+      "title": "Ram Avtar Sharma & Ors. Etc v. State Of Haryana & Anr. Etc, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are directly supported by the source text with no invention or misstatement."
+    },
+    {
+      "case_id": "458404",
+      "title": "State Of Orissa v. Bidyabhujshan Mohapatra, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects the case: Tribunal Rules not discriminatory, procedures substantially similar, High Court lacked power to direct reconsideration of punishment."
+    },
+    {
+      "case_id": "461060",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding accurately reflect the source text without invention or misstatement."
+    },
+    {
+      "case_id": "462163",
+      "title": "Netai Bag & Ors v. The State Of West Bengal & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Enagro Foods was sister concern of Respondent No.5; lease was granted to Respondent No.5, not Enagro Foods directly. Minor entity conflation."
+    },
+    {
+      "case_id": "471272",
+      "title": "",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Holding reversed: Court held CSIR IS a State under Article 12, not that it is not. Name 'Pradeep Kumar Biswas' not in source."
+    },
+    {
+      "case_id": "473980",
+      "title": "Balwant Singh v. Jagdish Singh & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key fact incorrectly states 'deceased appellant'; source says 'sole respondent had died.' Holding language uses 'callousness'/'irresponsibly' not in source."
+    },
+    {
+      "case_id": "488175",
+      "title": "Gangadhar By L.Rs v. Surplus Land Determination, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are directly supported by the source text without invention or distortion."
+    },
+    {
+      "case_id": "490205",
+      "title": "Babu Lal v. Hazari Lal Klshori Lal & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding accurately reflect the source text with no fabrication or distortion."
+    },
+    {
+      "case_id": "499876",
+      "title": "Shri Ishar Alloy Steels Ltd v. Jayaswals Neco Limited, 2020",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Party names (Shri Ishar Alloy Steels Ltd., Jayaswals Neco Limited) are fabricated; not in source text."
+    },
+    {
+      "case_id": "510428",
+      "title": "Uttranchal Forest Development v. M.C. Joshi, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Corporation misnamed as 'Uttranchal' instead of 'U.P. Forest Development Corporation' per source; High Court's writ modification omitted."
+    },
+    {
+      "case_id": "511635",
+      "title": "M/S. Medchl Chemicals & Pharma P v. M/S. Biological E. Ltd. & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts, legal issues, and holding all accurately reflect the source text without invention or distortion."
+    },
+    {
+      "case_id": "522631",
+      "title": "Babubhai Muljibhai Patel v. Nandlal Khodidas Barot & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding accurately reflect the source text without fabrication or distortion."
+    },
+    {
+      "case_id": "547717",
+      "title": "Commissioner Of Sales Tax, Madhya v. Jaswant Singh Charan Singh, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary correctly identifies appellant as Commissioner, issue matches referred question, and holding matches court's decision affirming 2% rate."
+    },
+    {
+      "case_id": "56195",
+      "title": "Tahsildar Singh & Another v. The State Of Uttar Pradesh, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Outcome correct (convictions upheld), but summary wrongly states Sessions Judge was right; High Court conceded he was wrong, though not prejudicial."
+    },
+    {
+      "case_id": "566198",
+      "title": "Maj. Genl. A.S. Gauraya & Anr v. S.N. Thakur & Anr, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts, legal issue, and holding all match the source text exactly."
+    },
+    {
+      "case_id": "58259",
+      "title": "State Of Rajasthan v. Shri B.K. Meena & Others, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding directly supported by source text; no inventions or distortions."
+    },
+    {
+      "case_id": "585040",
+      "title": "State Of Goa v. Sanjay Thakran & Anr, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key_facts wrongly calls deceased couple 'the appellant'; holding states dismissed but source text is truncated and doesn't show final outcome."
+    },
+    {
+      "case_id": "597936",
+      "title": "Cheekati Kuriminaidu & Ors v. Karri Padmanabham Bhukta & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are directly supported by the source text, with correct direction of outcome."
+    },
+    {
+      "case_id": "599427",
+      "title": "Nelson Motis v. Union Of India & Another, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding are supported by the source text without invention or distortion."
+    },
+    {
+      "case_id": "607861",
+      "title": "Commissioner Of Income Tax v. Straw Board Manufacturing Co. Ltd, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding accurately reflect the source: strawboard covered by 'paper and pulp', appeals by Revenue dismissed."
+    },
+    {
+      "case_id": "615486",
+      "title": "Mrinal Das & Ors v. State Of Tripura, 2020",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Calls victim 'appellant'; fabricates 'students' agitation' motive; final holding not shown in truncated source."
+    },
+    {
+      "case_id": "618763",
+      "title": "Iqbal Singh Marwah & Anr v. Meenakshi Marwah & Anr, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Will bequeathed property to mother then brothers/sisters, not directly 'in favor of the appellants' as stated."
+    },
+    {
+      "case_id": "628977",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts incorrectly state sisters 'gifted' the property; source says mother gifted it TO them. Issues and holding are otherwise accurate."
+    },
+    {
+      "case_id": "629330",
+      "title": "Smt. S. R. Venkataraman v. Union Of India & Anr, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding directly supported by source text."
+    },
+    {
+      "case_id": "653417",
+      "title": "The Bharat Bank Ltd., Delhi v. Employees Of The Bharat Bank, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts, legal issues, and holding (dismissal of appeal) all align with K.C.J. Kania's operative judgment in the source."
+    },
+    {
+      "case_id": "662142",
+      "title": "The State Of Rajasthan v. Shri Teja Singh & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately captures facts, issues, and holding; minor omission of Section 34 IPC for A-2/A-3 is imprecise but not misleading."
+    },
+    {
+      "case_id": "665168",
+      "title": "The State Of Madhya Bharat (Now The v. Hiralal Ji, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issue, and holding accurately reflect the source text."
+    },
+    {
+      "case_id": "669593",
+      "title": "State Of Bihar v. Deokaran Nenshi, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding accurately reflect the source. Minor spelling difference (Indian vs India) and omission of jurisdiction question are negligible."
+    },
+    {
+      "case_id": "67871",
+      "title": "Bishambhar Dayal Chandra Mohan v. State Of Uttar Pradesh & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Source text is truncated; formal holding/dismissal not explicitly stated, though analysis supports it."
+    },
+    {
+      "case_id": "679175",
+      "title": "B. Shama Rao v. The Union Territory Of, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects majority holding: principal Act stillborn, Amendment Act could not revive it, petition allowed."
+    },
+    {
+      "case_id": "686491",
+      "title": "State Of Kerala v. Mathew & Anr, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately captures facts, genuine legal issues under listed sections, and the correct holding of dismissal upholding acquittal."
+    },
+    {
+      "case_id": "68789429",
+      "title": "Shiv Sarup Gupta v. Dr. Mahesh Chand Gupta, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are supported by the source text with correct outcome direction."
+    },
+    {
+      "case_id": "688536",
+      "title": "Municipal Council, Ahmednagar v. Shah Hyder Beig & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Minor drift: 'Municipal Council' should be 'Municipal Corporation' as in source. All other facts, issues, and holding are accurate."
+    },
+    {
+      "case_id": "690534",
+      "title": "The Calcutta Gas Company v. The State Of West Bengal & Others, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are directly supported by the source text without invention or distortion."
+    },
+    {
+      "case_id": "694079",
+      "title": "M. G. Agarwal v. State Of Maharashtra, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects source: conspiracy, fictitious refund orders, Rs.54,000 misappropriation, issues on appeal scope and circumstantial evidence, and dismissal of appeals."
+    },
+    {
+      "case_id": "70828540",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts, legal issues, and holding direction all supported by source; forfeiture held arbitrary under Article 14."
+    },
+    {
+      "case_id": "712469",
+      "title": "Shivaji Dayanu Patil & Anr v. Smt. Vatschala Uttam More, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "First issue incorrectly states 'for bail purposes'—this is a compensation case, not bail. Other issues and holding are accurate."
+    },
+    {
+      "case_id": "726134",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Holding adds 'aware of fake licence' specificity not in source; source requires insured's wilful breach generally, not awareness of fakeness."
+    },
+    {
+      "case_id": "73583860",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Respondent's name 'M/s Dewan Chand Ram Saran' is fabricated; not in source. 'Rashtriya Ispat Nigam Ltd' inferred from 'RINL'. Issues and holding are accurate."
+    },
+    {
+      "case_id": "75737",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Holding omits court's direction that insurer must pay awarded amount and recover from owner, and prospective effect clarification."
+    },
+    {
+      "case_id": "770422",
+      "title": "Dalip Singh & Others v. State Of Punjab, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding accurately reflect the source text without invention or distortion."
+    },
+    {
+      "case_id": "777448",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Holding imprecise: conviction was modified from 302 to 304 Part I, not merely 'upheld'; minor directional misstatement of the outcome."
+    },
+    {
+      "case_id": "778550",
+      "title": "State Of Uttar Pradesh & Anr v. Brijpal Singh, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects key facts, issues litigated, and court's holding setting aside Labour Court and High Court orders."
+    },
+    {
+      "case_id": "785132",
+      "title": "Bhanu Kumar Jain v. Archana Kumar & Anr, 2020",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Invents appellant's name 'Bhanu Kumar Jain' and misidentifies Respondent No. 2 as 'Archana Kumar' (actually Surender Nath Kumar)."
+    },
+    {
+      "case_id": "789051",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects source facts, issues, and holding with no fabrication or distortion."
+    },
+    {
+      "case_id": "791872",
+      "title": "The Life Insurance Corporation Of v. D. J. Bahadur & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects source facts, both litigated issues (ID Act vs LIC Act; Regulation 58 vs settlements), and holding direction."
+    },
+    {
+      "case_id": "797272",
+      "title": "Kerala State Electricity Board v. Valsala K & Another, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are directly supported by the source text."
+    },
+    {
+      "case_id": "815844",
+      "title": "Sardar Gurbaksh Singh v. Gurdial Singh, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are directly supported by the source text with no fabrication or misstatement."
+    },
+    {
+      "case_id": "828208",
+      "title": "Sophia Gulam Mohd. Bham v. State Of Maharashtra & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects key facts, the Article 22(5) issue, and the quashing of detention order."
+    },
+    {
+      "case_id": "830474",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary omits 'one-third share' in house; lists only 3 of 9 issues. Otherwise faithful to source."
+    },
+    {
+      "case_id": "834739",
+      "title": "Saradamani Kandappan v. S. Rajalakshmi & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Appellant's name 'Saradamani Kandappan' is not in source text; all other facts, issues, and holding are supported."
+    },
+    {
+      "case_id": "856194",
+      "title": "Apparel Export Promotion Council v. A.K. Chopra, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Enquiry Officer found actual molestation, not merely 'attempting'; summary's phrasing slightly imprecise but direction correct."
+    },
+    {
+      "case_id": "859367",
+      "title": "Administrator General Of West v. Collector, Varanasi, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding match source. Minor 'Law' vs 'Land' typo in one issue is inconsequential."
+    },
+    {
+      "case_id": "862701",
+      "title": "Aslam Babalal Desai v. State Of Maharashtra, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Facts, issue, and holding all directly supported by source text and precedent discussion."
+    },
+    {
+      "case_id": "86594",
+      "title": "Renusagar Power Co. Ltd v. General Electric Co, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Issues and facts are grounded in source, but final holding is not visible in truncated text; summary's claim of upholding enforcement is unverifiable."
+    },
+    {
+      "case_id": "869497",
+      "title": "Bhagirath Kanoria & Ors. Etc v. State Of M.P. & Ors. Etc, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding accurately reflect the source text with no fabrication or distortion."
+    },
+    {
+      "case_id": "887114",
+      "title": "New India Assurance Compafiy v. Shri Satpal Singh & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are directly supported by the source text without invention or distortion."
+    },
+    {
+      "case_id": "88736829",
+      "title": "Hdfc Ergo General Insurance Co Ltd v. Smt Asha Devi & Others, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects source: counsel heard, no appearance for respondents, order 9.8.12 confirmed, application disposed."
+    },
+    {
+      "case_id": "899629",
+      "title": "Kisan Sahkari Chini Mills Ltd. v. Vardan Linkers & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Vardan Linkers is first respondent/appellee, not appellant. Key_facts misidentifies party position. Otherwise accurate."
+    },
+    {
+      "case_id": "909172",
+      "title": "Rajendra Pratap Singh Yadav & Ors v. State Of U.P. & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are directly supported by the source text."
+    },
+    {
+      "case_id": "911769",
+      "title": "Associated Cement Companies Ltd v. P. N. Sharma & Another, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Source confirms Welfare Officer's appeal was incompetent and implies State is tribunal, but final holding is cut off; specific reasoning for incompetence not stated."
+    },
+    {
+      "case_id": "92021",
+      "title": "Delhi Cloth & General Mills Co v. Workmen & Ors. Etc, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Holding's basic-wage ruling and uniformity rationale are not supported in source; unit-wise part is grounded."
+    },
+    {
+      "case_id": "924354",
+      "title": "Haryana State Lotteries, Iqbal v. Govt. Of Nct Of Delhi & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts misidentify appellant (H. Anraj is precedent, not party) and legislation (case concerns Delhi, not Tamil Nadu/Bengal Acts)."
+    },
+    {
+      "case_id": "934844",
+      "title": "Smt. Phoolwati v. Union Of India & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding accurately reflect the source text without invention or distortion."
+    },
+    {
+      "case_id": "943108",
+      "title": "State Of Kerala & Ors v. M. Bhaskaran Pillai & Anr, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding accurately reflect the source with no fabrications or distortions."
+    },
+    {
+      "case_id": "95054877",
+      "title": "M/S Aster Publishing v. Sh. Niwas Aggarwal & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects court's findings on service validity, limitation, and dismissal of revision petition."
+    },
+    {
+      "case_id": "958552",
+      "title": "G.B. Mahajan & Ors v. Jalgaon Municipal Council & Ors, 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts about building types and self-financing are not in source; Article 14 and lease characterization are fabricated issues not in source text."
+    },
+    {
+      "case_id": "962160",
+      "title": "Lila Dhar v. State Of Rajasthan & Ors, 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Petitioner's name 'Lila Dhar' is not in the source text; this is an invented fact, violating the grounded criterion."
+    },
+    {
+      "case_id": "965502",
+      "title": "A. Janardhana v. Union Of India & Others, 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Holding unverifiable: source text is truncated mid-sentence; summary fabricates specific outcome regarding 1963/1967-68 lists being restored."
+    },
+    {
+      "case_id": "976511",
+      "title": "Union Of India & Anr v. Kankuben By Lrs. & Ors. Etc, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects facts, issue, and holding; appeals allowed, applications held not maintainable per precedent on pre-existing rights."
+    },
+    {
+      "case_id": "97734394",
+      "title": "Smt.Sudha Gupta & Another v. Ram Mohan Sharma & Others, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are directly supported by the source text without fabrication."
+    },
+    {
+      "case_id": "991415",
+      "title": "",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts slightly imprecise: summary implies writ petition was allowed by Division Bench, but Single Judge dismissed it; Division Bench allowed the LPA."
+    },
+    {
+      "case_id": "996348",
+      "title": "Mcdermott International Inc v. Burn Standard Co. Ltd. & Ors, 2020",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Holding fabricates specific outcome (upholding award, reducing interest from 10% to 7.5%); source text contains no such final decision."
+    },
+    {
+      "case_id": "10013",
+      "title": "Commissioner Of Income-Tax v. Patel Brothers & Co. Ltd, Etc. Etc, 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": false,
+      "holding_accurate": true,
+      "justification": "Dispute concerned customer meals only; employee meals were undisputed, so including 'employees' in legal issue is imprecise."
+    },
+    {
+      "case_id": "1007946",
+      "title": "K.D.Sharma v. Steel Authorities Of India Ltd., 2020",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": false,
+      "holding_accurate": true,
+      "justification": "Appellant's name 'K.D. Sharma' is invented; issues are loosely framed and mischaracterize the fraud allegation."
+    },
+    {
+      "case_id": "1015491",
+      "title": "Associated Engineering Co v. Government Of Andhra Pradesh, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects facts, issues, and holding; contractor's appeals dismissed, government's appeal allowed for Claim II."
+    },
+    {
+      "case_id": "1031881",
+      "title": "Naresh Chandra Guha v. Ram Chandra Samanta & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding are supported by the source text accurately."
+    },
+    {
+      "case_id": "104935066",
+      "title": "M/S Gujarat Pottling Co.Ltd. & Ors v. The Coca Cola Co. & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts grounded, issues reasonable, but holding asserts Supreme Court upheld injunction without clear textual support."
+    },
+    {
+      "case_id": "1060754",
+      "title": "Vijayee Singh & Ors v. State Of Uttar Pradesh, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are directly supported by the source text with no invention or distortion."
+    },
+    {
+      "case_id": "1063314",
+      "title": "Sayed Taher Bawamiya v. Joint Secretary To The Govt. Of, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects source facts, genuine legal issue, and correct holding dismissing appeal and writ petition."
+    },
+    {
+      "case_id": "107483",
+      "title": "Union Of India & Another v. G. Ganayutham, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Court explicitly left proportionality question 'debatable' and undecided; summary overstates it as definitively rejected for non-fundamental-rights cases."
+    },
+    {
+      "case_id": "1082001",
+      "title": "Amar Singh v. Union Of India & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Petitioner's name 'Amar Singh' not in source; explicit dismissal not stated in provided text (only strongly implied)."
+    },
+    {
+      "case_id": "1084013",
+      "title": "Ramesh & Ors v. State Of Tamil Nadu, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Holding imprecise: court did not definitively hold Trichy lacked jurisdiction; transfer was based on convenience. Limitation ruling (Section 473 applied) is omitted."
+    },
+    {
+      "case_id": "111520823",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects key facts, the litigated issue, and the court's holding from the source."
+    },
+    {
+      "case_id": "112383092",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Holding and issues fully match source. Minor: 'Registrar of Companies' label for appellant is inferred from Section 209A context, not explicitly stated in source."
+    },
+    {
+      "case_id": "1126538",
+      "title": "M. K. Ranganathan & Another v. Government Of Madras & Others, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects facts, issue, and holding; sale validity confirmed, appeal dismissed."
+    },
+    {
+      "case_id": "1149369",
+      "title": "Bangalore Water-Supply v. R. Rajappa & Others, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are supported by the source; issues directly quoted from text."
+    },
+    {
+      "case_id": "1152219",
+      "title": "Dr. Raghubir Sharan v. The State Of Bihar, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Facts, issue, and holding are all supported by the source; appeal dismissed, remarks not expunged."
+    },
+    {
+      "case_id": "1170587",
+      "title": "Herbertsons Limited v. Workmen Of Herbertsons Limited, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding accurately reflect the source text regarding the settlement, parties, and court's decision."
+    },
+    {
+      "case_id": "1179360",
+      "title": "Sm. Banarsi Devi v. Sm. Janki Devi, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts slightly imprecise: documents aimed to show joint Mitakshara family status, not merely husband's partnership; otherwise accurate."
+    },
+    {
+      "case_id": "1186098",
+      "title": "Ambica Quarry Works & Anr v. State Of Gujarat & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects source facts, issues, and holding with no inventions or misstatements."
+    },
+    {
+      "case_id": "1186368",
+      "title": "Ajay Hasia Etc v. Khalid Mujib Sehravardi & Ors. Etc, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Holding claims 33 1/3% viva voce allocation was arbitrary; source text is cut off and provided excerpts lean toward validating interview system."
+    },
+    {
+      "case_id": "1193898",
+      "title": "R.K. Malik & Anr v. Kiran Pal & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Facts, issues, and holding all accurately reflect the source text without invention or distortion."
+    },
+    {
+      "case_id": "1208997",
+      "title": "Shaheen Welfare Association v. Union Of India & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects the PIL's subject, the three key issues, and the court's holding on bail release and need for more Designated Courts."
+    },
+    {
+      "case_id": "1210458",
+      "title": "Oriental Insurance Co. Ltd v. Brij Mohan & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Facts, issues, and holding all accurately reflect the source text, including Article 142 direction for payment with recovery."
+    },
+    {
+      "case_id": "121952",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts grounded in source; issues match those litigated; holding correctly states dismissal and public tender direction."
+    },
+    {
+      "case_id": "1221904",
+      "title": "State Of Kerala v. Anilachandran @ Madhu & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are accurately drawn from and supported by the source text."
+    },
+    {
+      "case_id": "1232610",
+      "title": "Netai Dutta v. State Of West Bengal, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are directly supported by the source text without invention or distortion."
+    },
+    {
+      "case_id": "1235841",
+      "title": "Haryana State Electricity Board v. Naresh Tanwar & Anr, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding accurately reflect the source. Deaths in 1980 and 1975, appeals allowed, correct legal reasoning on time limits."
+    },
+    {
+      "case_id": "1240908",
+      "title": "N. Balakrishnan v. M. Krishnamurthy, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding accurately reflect the source text without invention or distortion."
+    },
+    {
+      "case_id": "1248129",
+      "title": "Income-Tax Officer, Special v. M/S. Seth Brothers & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are directly supported by the source text with no invention or misstatement."
+    },
+    {
+      "case_id": "1259252",
+      "title": "U.P. Financial Corporation v. Gem Cap Pvt. Ltd. & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding are accurately drawn from the source; holding correctly reflects Supreme Court's allowance of appeal."
+    },
+    {
+      "case_id": "1261492",
+      "title": "Kumari Shrilekha Vidyarthi Etc v. State Of U.P. & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts and legal issues are supported; however, the specific relief of quashing and restoring status quo ante is not stated in source."
+    },
+    {
+      "case_id": "12623793",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issue regarding consent and false promise of marriage, and holding (acquittal/benefit of doubt) match source."
+    },
+    {
+      "case_id": "127041521",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are directly supported by the source text without invention or distortion."
+    },
+    {
+      "case_id": "1275754",
+      "title": "Hitendra Vishnu Thakur v. State Of Maharashtra, 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Holding is inverted: court dismissed appeals and upheld bail rejection, not granted bail to appellant."
+    },
+    {
+      "case_id": "1281710",
+      "title": "Samar Singh v. Kedar Nath Alias K.N. Singh, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding accurately reflect the source; minor phrasing simplifications do not distort meaning."
+    },
+    {
+      "case_id": "1282718",
+      "title": "G. Govindan v. New India Assurance Co. Ltd., 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, the legal issue, and the holding are directly supported by the source text with no fabrication or misstatement."
+    },
+    {
+      "case_id": "1287726",
+      "title": "Shri Nem Chand Daga v. Shri Inder Mohan Singh Rana, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are directly supported by the source text with no invention or distortion."
+    },
+    {
+      "case_id": "1306519",
+      "title": "M. P. Sharma & Others v. Satish Chandra, District, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are supported by the source; court correctly found no violation of Art. 20(3) or 19(1)(f)."
+    },
+    {
+      "case_id": "1307370",
+      "title": "Ratilal Panachand Gandhi v. The State Of Bombay, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Holds section 58 as fee not tax, but source text is truncated and doesn't explicitly state this conclusion. Also omits section 55/56 cy pres holding being struck down."
+    },
+    {
+      "case_id": "131062",
+      "title": "Charanjit Singh Mann v. Neelam Mann, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Outcome correct (appeal dismissed, divorce set aside), but holding attributes result solely to 6-month period, omitting service validity finding."
+    },
+    {
+      "case_id": "1335414",
+      "title": "Michael Machado & Anr v. Central Bureau Of Investigation, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issue, and holding accurately reflect the source text with no invention or distortion."
+    },
+    {
+      "case_id": "1337799",
+      "title": "The State v. Captain Jagjit Singh, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are directly supported by the source text with no inventions or distortions."
+    },
+    {
+      "case_id": "1377335",
+      "title": "Anand Nivas Ltd v. Anandji Kalyanji Pedhi & Ors, 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Holding reversed: source states 'The appeal fails and is dismissed with costs'; summary incorrectly says appeal was allowed."
+    },
+    {
+      "case_id": "1382411",
+      "title": "The State Of Bombay v. Atma Ram Sridhar Vaidya, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key fact misidentifies detained person as 'appellant' when source shows he was the respondent; issues and holding direction are accurate."
+    },
+    {
+      "case_id": "1389589",
+      "title": "Tarlochan Dev Sharma v. State Of Punjab & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are directly supported by the source text."
+    },
+    {
+      "case_id": "1391679",
+      "title": "City & Industrial Devt.Corp v. Dosu Aardeshir Bhiwandiwala & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding accurately reflect the source; only trivial expansion of CIDCO acronym from outside knowledge."
+    },
+    {
+      "case_id": "1394459",
+      "title": "Daulat Ram v. Ram Kishan & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are directly supported by the source text with no inventions."
+    },
+    {
+      "case_id": "1396529",
+      "title": "The Commissioner Of Income-Tax v. The Scindia Steam Navigatlon Co, 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Company name 'Scindia Steam Navigation Co. Ltd.' and 'requisitioned' are not in source; ship lost by enemy action."
+    },
+    {
+      "case_id": "139796748",
+      "title": "The State Of Gujarat & Anr v. Suryakant Chunilal Shah, 2019",
+      "verdict": "unfaithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Respondent's name 'Suryakant Chunilal Shah' is invented; not present anywhere in source text."
+    },
+    {
+      "case_id": "1399890",
+      "title": "Ramjee Rai & Ors v. State Of Bihar, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Holding adds 'and the petition' though source only mentions dismissal of appeal; minor but technically inaccurate."
+    },
+    {
+      "case_id": "1403861",
+      "title": "M/S. Mandvi Co-Op Bank Ltd v. Nimesh B.Thakore, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Holding partly wrong: source shows High Court allowed accused to give evidence on affidavit, but summary states opposite."
+    },
+    {
+      "case_id": "1418488",
+      "title": "Commissioner Of Income-Tax, West v. Indian Molasses Ltd, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects facts, issues referred, and court's holding direction; all supported by source."
+    },
+    {
+      "case_id": "143829",
+      "title": "Oriental Insurance Co. Ltd v. Vijay Kumar Mittal & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding are supported by source text. Right leg amputation matches paragraph 7."
+    },
+    {
+      "case_id": "146820600",
+      "title": "Sunil Sharma & Ors v. Bachitar Singh & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Holding incorrectly states compensation awarded for funeral rites; court only awarded for love/affection and consortium."
+    },
+    {
+      "case_id": "1484588",
+      "title": "Sayaji Hanmant Bankar v. State Of Maharashtra, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding directly supported by source. No inventions or misstatements."
+    },
+    {
+      "case_id": "151465151",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Y. Ramachandra Reddy was the deceased victim, not the appellant; appellants were State and complainant. Holding and issues are correct."
+    },
+    {
+      "case_id": "1515744",
+      "title": "Babu Singh & Ors v. The State Of U.P, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects key facts (murder charge, acquittal, reversal, 20 months imprisonment), the bail issue, and the bail grant with conditions."
+    },
+    {
+      "case_id": "1520376",
+      "title": "Shakti Devi v. New India Insurance Co. Ltd. & Anr, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issue, and holding are accurately drawn from and supported by the source text."
+    },
+    {
+      "case_id": "1527980",
+      "title": "Life Insurance Corporation Of v. Smt.Asha Goel & Anr, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts grounded; issues accurate; holding correctly states direction to pay. Minor imprecision: LIC appealed Division Bench judgment that remanded, not one that 'allowed a claim.'"
+    },
+    {
+      "case_id": "153963412",
+      "title": "Bachan Singh, Sher Singh & Anr v. State Of Punjab & Ors, 2019",
+      "verdict": "unfaithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Source is a solitary dissent; majority upheld death penalty. Summary presents dissent as the court's holding, reversing actual outcome."
+    },
+    {
+      "case_id": "1541798",
+      "title": "Gujarat State Road Transport v. Ramanbhai Prabhatbhai & Another, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Holding is imprecise; source addresses brothers specifically as legal representatives under S.110-A, not a conditional 'if'."
+    },
+    {
+      "case_id": "15422",
+      "title": "Hajee K. Assainar v. Commissioner Of Income-Tax, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": false,
+      "holding_accurate": true,
+      "justification": "Legal issue states 'previous year 1955-56' but question referred specifies 'previous year 1954-55'; holding direction is correct."
+    },
+    {
+      "case_id": "1545494",
+      "title": "Damodar Valley Corporation v. K. K. Kar, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, the legal issue, and the holding are supported by the source text without invention or distortion."
+    },
+    {
+      "case_id": "1553220",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding are directly supported by the source text with no inventions or distortions."
+    },
+    {
+      "case_id": "156592828",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects key facts, issues, and holding from source text without invention or distortion."
+    },
+    {
+      "case_id": "1570514",
+      "title": "Luxmi Tea Company Limited v. Pradip Kumar Sarkar, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Company name 'Luxmi Tea Company Limited' is invented; not in source. Other facts, issues, and holding are accurate."
+    },
+    {
+      "case_id": "1584099",
+      "title": "Damadilal & Others v. Parashram & Others, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding direction match the source; only minor spelling variation in plaintiff's name."
+    },
+    {
+      "case_id": "1584447",
+      "title": "Noor Aga v. State Of Punjab & Anr, 2020",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Source text is truncated before the holding; outcome of 'appeal allowed, judgment set aside' is not stated in source."
+    },
+    {
+      "case_id": "1599714",
+      "title": "G.J. Fernandez v. State Of Mysore & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects source: lowest unconditional tender claim, two litigated issues, and dismissal on both grounds."
+    },
+    {
+      "case_id": "160278245",
+      "title": "",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Holding misstated; source text is cut off but discussion strongly suggests court upheld refusal to quash, not allowed appeal."
+    },
+    {
+      "case_id": "1612935",
+      "title": "N.P. Ponnuswami v. Returning Officer, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are directly supported by the source text, with no invention or distortion."
+    },
+    {
+      "case_id": "1613023",
+      "title": "B. Venkatamuni v. C.J. Ayodhya Ram Singh & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts imprecise: Will favored only Respondent No.1, not all children; 'Jai Singh's children with her' is invented; partner mischaracterized."
+    },
+    {
+      "case_id": "1617551",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Holding misstated: court only struck down 8.33% quota for degree holders, not quotas for diploma holders too."
+    },
+    {
+      "case_id": "1630460",
+      "title": "Gurudevdatta Vksss Maryadit & Ors v. State Of Maharashtra & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts grounded in source, issues genuinely litigated, holding correctly states dismissal and retrospective application."
+    },
+    {
+      "case_id": "1656601",
+      "title": "The State Of Orissa v. Sudhansu Sekhar Misra & Ors, 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Holding inverts key principle: source says High Court cannot foist officer on government; summary reverses it."
+    },
+    {
+      "case_id": "1659001",
+      "title": "P. Balakotaiah v. The Union Of India & Others(, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding align with source; court upheld Security Rules' validity and dismissed appeals."
+    },
+    {
+      "case_id": "1660698",
+      "title": "State Of Gujarat v. Bai Fatima & Anr, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Holding incorrectly states sentences fully restored for both respondents; court only restored respondent no.2's conviction, reducing her sentence to time already served."
+    },
+    {
+      "case_id": "1660781",
+      "title": "M. Lachia Setty & Sons Ltd. Etc. Etc v. The Coffee Board, Bangalore, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately captures key facts, issues litigated, and holding. All claims are supported by source."
+    },
+    {
+      "case_id": "1660833",
+      "title": "Kunnathat Thathunni Moopil Nair v. The State Of Kerala, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Holding adds Article 31 violation not confirmed in truncated source; Art. 14 and 19(1)(f) violations are supported."
+    },
+    {
+      "case_id": "166342",
+      "title": "S.G. Chemical & Dyes Trading v. S.G. Chemicals & Dyes Trading, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Holding is incomplete: the actual decision includes adjustment of retrenchment compensation against back wages, not simply full salary."
+    },
+    {
+      "case_id": "1664373",
+      "title": "Raptakos Brett & Co. Ltd v. Ganesh Property, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts, legal issues, and holding are all supported by the source text with no inventions or misstatements."
+    },
+    {
+      "case_id": "1665009",
+      "title": "The Refugees Co-Operative v. The Municipal Corporation Of, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Source truncated; holding's specifics about 'declaring streets public' and 'at Corporation's cost' not confirmed in visible text."
+    },
+    {
+      "case_id": "1669684",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding are supported by the source text without invention or distortion."
+    },
+    {
+      "case_id": "1685422",
+      "title": "Rajesh Tyagi & Ors v. Jaibir Singh & Ors, 2020",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Holding fabricates 'dismissed the appeals'—no appeals mentioned in source. Procedure approval is accurate but outcome misstated."
+    },
+    {
+      "case_id": "16923800",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects the 498-A/Dowry Act case: conviction maintained, sentence reduced to time served, Rs.2,50,000 compensation. All facts supported by source."
+    },
+    {
+      "case_id": "169428",
+      "title": "N.P. Thirugnanam By Lrs v. Dr. R. Jagan Mohan Rao & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding are directly supported by the source text without invention or distortion."
+    },
+    {
+      "case_id": "1719430",
+      "title": "Associated Hotels Of India Ltd v. R. N. Kapoor, 2019",
+      "verdict": "faithful",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key fact says 'leased spaces' but document was a 'deed of licence'; lease vs. license was the central dispute."
+    },
+    {
+      "case_id": "173015163",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Issues accurately reflect source; however, holding is not present in truncated source text, and party names are inferred from abbreviations."
+    },
+    {
+      "case_id": "1732220",
+      "title": "State Of Andhra Pradesh v. Mcdowell & Co. & Ors.Etc, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Holding stated definitively, but source text is truncated before final rulings on Article 14 and 19(1)(g)."
+    },
+    {
+      "case_id": "1743339",
+      "title": "Khedu Mohton & Ors v. State Of Bihar, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are accurately drawn from the source text."
+    },
+    {
+      "case_id": "176232166",
+      "title": "New India Assurance Co. Ltd v. Smt. Sakshi Bhutani & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects the source's facts, issues, and holding; appeal dismissed, compensation upheld as just and reasonable."
+    },
+    {
+      "case_id": "178065446",
+      "title": "Prof. N.K. Ganguly v. C.B.I., New Delhi, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects source facts, issues litigated (misconduct, fair investigation), and the court's analysis upholding the charge sheet."
+    },
+    {
+      "case_id": "1786180",
+      "title": "Rao Shiv Bahadur Singh & Another v. The State Of Vindhya Pradesh, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding are supported by the source text's analysis and reasoning."
+    },
+    {
+      "case_id": "18076",
+      "title": "K. Nagaraj & Ors. Etc. Etc v. State Of Andhra Pradesh & Anr. Etc, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts, legal issues, and holding are all supported by source; court upheld the reduction as permissible legislative policy."
+    },
+    {
+      "case_id": "1808033",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Core holding on absolute power is correct, but misses key limitation (cannot annul/modify security) and adds unsupported 'due regard to third persons' qualifier."
+    },
+    {
+      "case_id": "1839402",
+      "title": "Syed Abdul Qadir & Ors v. State Of Bihar & Ors, 2020",
+      "verdict": "partial",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Holding fabricates a direction to refund recovered amounts within three months, which is not stated in the source text."
+    },
+    {
+      "case_id": "1854374",
+      "title": "The Disciplinary v. Nikunja Bihari Patnaik, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects the case facts, genuine legal issues, and the Supreme Court's reversal of the High Court."
+    },
+    {
+      "case_id": "1861271",
+      "title": "Ram Sumer Puri Mahant v. State Of U.P. & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding accurately reflect the source text without invention or distortion."
+    },
+    {
+      "case_id": "188951670",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Facts, issues, and holding match source. Minor issue: appellant's name 'Vinod Kumar' not confirmed in source."
+    },
+    {
+      "case_id": "1900540",
+      "title": "Puttamma W/O Lt Ramadas v. K L Narayana Reddy S/O Lt, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Holding is imprecise; court directed disbursement primarily to Canara Bank for loan clearance, not simply to claimants."
+    },
+    {
+      "case_id": "1904067",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects key facts, legal issue, and holding that the notice was barred; no fabrication or reversal."
+    },
+    {
+      "case_id": "1905739",
+      "title": "Budhan Choudhry & Other v. The State Of Bihar, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding are directly supported by the source text without invention or distortion."
+    },
+    {
+      "case_id": "1907093",
+      "title": "Onkar Nath Mishra & Ors v. State & Anr, 2020",
+      "verdict": "faithful",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Name 'Onkar Nath Mishra' is fabricated; not in source. Otherwise facts, issues, and holding align with source."
+    },
+    {
+      "case_id": "1909215",
+      "title": "Nagendra Nath Dey v. Suresh Chandra Dey, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects Article 182 dispute, issues litigated, and Board's holding allowing the appeal."
+    },
+    {
+      "case_id": "1923361",
+      "title": "Tholan v. State Of Tamil Nadu, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects the facts, legal issues, and holding as stated in the source."
+    },
+    {
+      "case_id": "1930672",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are accurately drawn from the source text with no fabrication or distortion."
+    },
+    {
+      "case_id": "1942299",
+      "title": "The Managing Director v. Ajit Prasad Tarway, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": false,
+      "holding_accurate": true,
+      "justification": "Second issue fabricated; court explicitly declined to decide first appellate order's validity, only addressing jurisdiction."
+    },
+    {
+      "case_id": "1945016",
+      "title": "Earabhadrappa Alias Krishnappa v. State Of Karnataka, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are directly supported by the source text with no invention or misstatement."
+    },
+    {
+      "case_id": "1946315",
+      "title": "The Officer On Special Duty(Land v. Shah Manilal Chandulal Etc, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects facts, issues, and holding as stated in source text."
+    },
+    {
+      "case_id": "1947636",
+      "title": "Dattu Rama Kadam v. The State Of Maharashtra, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are directly supported by the source text."
+    },
+    {
+      "case_id": "1954525",
+      "title": "R.K. Bhatnagar v. Sushila Bhargava & Anr, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "'Abandoned' misstates clause (d) ground, which concerns non-user/non-residence, not legal abandonment with intent."
+    },
+    {
+      "case_id": "198394",
+      "title": "Bhagat Ram v. State Of Himachal Pradesh & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding directly supported by source text with no invention or distortion."
+    },
+    {
+      "case_id": "1992949",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects key facts, issue, and holding; all supported by source."
+    },
+    {
+      "case_id": "1996049",
+      "title": "Ishwardeo Narain Singh v. Sm. Kamta Devi & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are directly supported by the source text with no inventions or distortions."
+    },
+    {
+      "case_id": "242776",
+      "title": "Vidya Varuthi Thirtha v. Balusami Ayyar, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Facts, issues, and holding direction are all supported by the source's analysis and reasoning."
+    },
+    {
+      "case_id": "245892",
+      "title": "Tirath Singh v. Bachittar Singh & Others, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects key facts, both litigated issues, and the outcome dismissing the appeal."
+    },
+    {
+      "case_id": "24736",
+      "title": "M/S Sms Tea Estates P.Ltd v. M/S Chandmari Tea Co.P.Ltd, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects source facts, three issues, and the remittal order allowing the appeal."
+    },
+    {
+      "case_id": "250338",
+      "title": "Prem Singh & Others v. Haryana State Electricity Board, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Facts grounded; issues genuine; holding directionally correct but vague—omits specific 87-post threshold for valid appointments."
+    },
+    {
+      "case_id": "262361",
+      "title": "Vishwanath Sood v. Union Of India & Anr, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects the case facts, issues, and holding; compensation under clause 2 is outside arbitrator's purview."
+    },
+    {
+      "case_id": "275235",
+      "title": "State Of Bihar v. Radha Krishna Singh & Ors, 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": false,
+      "holding_accurate": true,
+      "justification": "Second issue (escheat to State) is not explicitly framed in source; other elements are supported."
+    },
+    {
+      "case_id": "312511",
+      "title": "The Commissioner Of v. Chandulal Keshavlal & Co., Petlad, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, figures, issues, and holding match the source text accurately."
+    },
+    {
+      "case_id": "318186",
+      "title": "Seth Thawardas Pherumal v. The Union Of India( & Connected, 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Holding reversed: source states appeals were dismissed; summary incorrectly says court allowed the appeals."
+    },
+    {
+      "case_id": "318728",
+      "title": "Kerala State Electricity Board v. Kurien E.Kalathil & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Court did not squarely hold contractor 'entitled' to payments; it declined to dismiss writ due to peculiar circumstances while modifying interest."
+    },
+    {
+      "case_id": "327478",
+      "title": "Jagdish Singh v. Natthu Singh, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding accurately reflect the source text with no inventions or misstatements."
+    },
+    {
+      "case_id": "327850",
+      "title": "Director Of Education v. Pushpendra Kumar & Others, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects facts, issue, and holding from source text."
+    },
+    {
+      "case_id": "337402",
+      "title": "State Of West Bengal v. Orilal Jaiswal & Another, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Usha Jaiswal was the deceased, not the appellant (State of West Bengal was); otherwise accurate."
+    },
+    {
+      "case_id": "34999496",
+      "title": "The Kerala State Electricity v. T.P. Kunhaliumma, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts match source; both issues are genuinely litigated; holding correctly states Article 137 applies and petition time-barred."
+    },
+    {
+      "case_id": "366037",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are supported by the source text with correct direction and no fabrication."
+    },
+    {
+      "case_id": "400596",
+      "title": "S.N. Mukherjee v. Union Of India, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding are directly supported by the source text without invention or distortion."
+    },
+    {
+      "case_id": "409057",
+      "title": "Md.Ibrahim & Ors v. State Of Bihar & Anr, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are directly supported by the source text without invention or distortion."
+    },
+    {
+      "case_id": "424874",
+      "title": "The State Of Bombay & Another v. The United Motors Ltd., 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Facts and issues are supported; holding direction aligns with SC's analysis upholding Act, but exact final ruling not explicitly stated in truncated source."
+    },
+    {
+      "case_id": "441001",
+      "title": "Nair Service Society Ltd v. Rev. Father K. C. Alexander & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding are directly supported by the source text."
+    },
+    {
+      "case_id": "443940",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are directly supported by the source text with no inventions or misstatements."
+    },
+    {
+      "case_id": "456839",
+      "title": "Romesh Thappar v. The State Of Madras, 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Petitioner named 'Romesh Thappar' is not in source text; drawn from outside knowledge, violating grounded requirement."
+    },
+    {
+      "case_id": "46332145",
+      "title": "Sanjay Arora v. Monika Singh, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are accurately drawn from the source text with no inventions or distortions."
+    },
+    {
+      "case_id": "465789",
+      "title": "Poddar Steel Corporation v. Ganesh Engineering Works, 2019",
+      "verdict": "partial",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts invent 'Poddar Steel Corporation' as appellant's name, not found anywhere in source text."
+    },
+    {
+      "case_id": "509294",
+      "title": "Bhamidipati Annapoorna Bhavani v. Land Acquisition Officer, Yeleru, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts, legal issue, and holding direction all align with the source's analysis; court clearly found Full Bench erred in denying maintainability."
+    },
+    {
+      "case_id": "513801",
+      "title": "Rustom Cavasjee Cooper v. Union Of India, 2019",
+      "verdict": "partial",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Case was writ petition, not appeal; 'appellant' mischaracterizes petitioner, though issues and holding are accurately stated."
+    },
+    {
+      "case_id": "516808",
+      "title": "Pakala Narayana Swami v. Emperor, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts, legal issues, and holding all directly supported by the source text."
+    },
+    {
+      "case_id": "520603",
+      "title": "Raj Kumar Rajinder Singh v. State Of Himachal Pradesh, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Facts, issues, and holding all supported by source text, consistent with plaintiff's-favor reasoning."
+    },
+    {
+      "case_id": "52449",
+      "title": "Kewal Krishan Puri & Anr v. State Of Punjab & Others, 2019",
+      "verdict": "unfaithful",
+      "grounded": false,
+      "issues_accurate": false,
+      "holding_accurate": true,
+      "justification": "Summary is entirely fabricated; source concerns market fees, not attempted murder or bail."
+    },
+    {
+      "case_id": "53080",
+      "title": "Union Of India & Ors v. Godfrey Philips India Ltd. Etc, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Source text is truncated; final operative order not stated, only analysis indicating promissory estoppel has 'considerable force.'"
+    },
+    {
+      "case_id": "531811",
+      "title": "Kaushalya Devi & Ors v. Shri K.L. Bansal, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately captures issues and holding, but incorrectly states appellants filed the suit; the source shows predecessor-in-interest did."
+    },
+    {
+      "case_id": "534095",
+      "title": "T. Subramanian v. State Of Tamil Nadu, 2020",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Appellant's name 'T. Subramanian' is fabricated; not in source. Other facts, issues, and holding are accurate."
+    },
+    {
+      "case_id": "535683",
+      "title": "",
+      "verdict": "partial",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts incorrectly state accused 5-8 received one year RI; they were released on admonition. The one year RI applied to the 302/149 convicts under §148."
+    },
+    {
+      "case_id": "55297",
+      "title": "Mohammed Aynuddin @ Miyam v. State Of Andhra Pradesh, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts, legal issue, and holding all accurately reflect the source text without invention or distortion."
+    },
+    {
+      "case_id": "553344",
+      "title": "Janki Vashdeo Bhojwani & Anr v. Indusind Bank Ltd. & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key fact incorrectly states property 'was mortgaged'; source says bank admitted plot was NOT mortgaged. Issues and holding are accurate."
+    },
+    {
+      "case_id": "564452",
+      "title": "Kamleshkumar Ishwardas Patel v. Union Of India & Ors. Etc. Etc, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Facts and issue faithfully reflect source; holding direction correct but full conclusion cut off in source text, making 'denial of right' language unverified."
+    },
+    {
+      "case_id": "574884",
+      "title": "M/S. Pepsi Foods Ltd. & Anr v. Special Judicial Magistrate & Ors, 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary is grounded and issues are accurate; holding aligns with source quashing proceedings against appellants for lack of prima facie case."
+    },
+    {
+      "case_id": "579074",
+      "title": "Ellerman Lines Ltd v. C.I.T. West Bengal, Calcutta, 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Holding omits that two appeals were dismissed as not maintainable; main disposition correct but incomplete."
+    },
+    {
+      "case_id": "592033",
+      "title": "State Of Uttar Pradesh v. Brahma Datt Sharma & Anr, 2019",
+      "verdict": "faithful",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Brahm Datt Sharma is the respondent, not the appellant; State Government is the appellant. Mislabeling parties is a factual error."
+    },
+    {
+      "case_id": "601768",
+      "title": "Union Of India & Others v. Manager M/S Jain & Associates, 2020",
+      "verdict": "faithful",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts invent 'Union of India' (source only says 'appellant is Government') and mischaracterize appeal as against 'High Court' rather than Full Bench judgment."
+    },
+    {
+      "case_id": "60202",
+      "title": "Pawan Kumar & Ors v. State Of Haryana, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding are accurately drawn from the source text without fabrication."
+    },
+    {
+      "case_id": "618705",
+      "title": "Union Of India v. Pramod Gupta By Lrs. & Ors, 2020",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts grounded; issues mostly accurate but second issue is imprecise; holding reasonably inferred though source text is truncated."
+    },
+    {
+      "case_id": "641256",
+      "title": "The Commissioner Of Income-Tax v. Messrs Ogale Glass Works Ltd, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, the legal issue (exact referred question), and holding (answered affirmatively, posting in Delhi = payment in British India) are supported by the source."
+    },
+    {
+      "case_id": "656488",
+      "title": "Madhya Pradesh Industries Ltd v. Union Of India & Others, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately captures facts, all four issues, and the holding (appeal dismissed) with correct majority reasoning on each point."
+    },
+    {
+      "case_id": "656741",
+      "title": "Gudikanti Narasimhulu & Ors v. Public Prosecutor, High Court Of, 2019",
+      "verdict": "unfaithful",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Specific IPC sections (148, 302, 302/149) and 'Andhra Pradesh High Court' are not stated in source text."
+    },
+    {
+      "case_id": "664488",
+      "title": "Sunil Kumar Sambhudayal Gupta v. State Of Maharashtra, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding accurately reflect the source text."
+    },
+    {
+      "case_id": "668128",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding are directly supported by the source text with no invention or distortion."
+    },
+    {
+      "case_id": "67608",
+      "title": "Punjab Land Development v. Presiding Officer, Labour, 2019",
+      "verdict": "unfaithful",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Source text is cut off mid-sentence; specific holding of wider literal interpretation is not stated in the source."
+    },
+    {
+      "case_id": "677551",
+      "title": "Allahabad Bank v. Canara Bank & Another, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects source facts, issues, and holding direction that RDB Act overrides Companies Act."
+    },
+    {
+      "case_id": "682973",
+      "title": "1. Mrs. Kailash Suneja (C.W. No v. Appropriate Authority, 2019",
+      "verdict": "unfaithful",
+      "grounded": false,
+      "issues_accurate": false,
+      "holding_accurate": false,
+      "justification": "Summary fabricates criminal case facts; source concerns tax/property valuation under Chapter XX-C."
+    },
+    {
+      "case_id": "690751",
+      "title": "Romesh Chandra Mehta v. State Of West Bengal, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holdings are supported by the source text without invention or distortion."
+    },
+    {
+      "case_id": "69408974",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts, issue, and holding are all supported by source text. Summary is minimal but accurate."
+    },
+    {
+      "case_id": "702724",
+      "title": "State Of Maharashtra Etc. Etc v. Som Nath Thapa, Etc. Etc, 2019",
+      "verdict": "unfaithful",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Holding fabricates outcomes for Azmi, Meharbaksh, Jain, and Thapa; source only shows Moolchand's appeal dismissed. Also misstates 26 discharged as absconding."
+    },
+    {
+      "case_id": "70995485",
+      "title": "Commissioner Of Income-Tax v. Mother India Refrigeration, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects the source: priority issue between current depreciation and carried forward loss, correctly states holding."
+    },
+    {
+      "case_id": "710099",
+      "title": "State Of Maharashtra & Ors v. Ishwar Piraji Kalpatri, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are directly supported by the source text."
+    },
+    {
+      "case_id": "732151",
+      "title": "State Of Madhya Pradesh & Anr v. Dharam Bir, 2019",
+      "verdict": "partial",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Respondent's name 'Dharam Bir' is not in source text; it is invented from outside knowledge, violating groundedness."
+    },
+    {
+      "case_id": "749737",
+      "title": "Bansi Lal & Ors v. Laxman Singh, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are directly supported by the source text."
+    },
+    {
+      "case_id": "753224",
+      "title": "Supreme Court v. Union Of India, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts, legal issues, and holding are all supported by the source text accurately."
+    },
+    {
+      "case_id": "756481",
+      "title": "Commissioner Of Income-Tax, New v. East West Import & Export, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects source facts, issues, and holding. No invention, correct outcome direction."
+    },
+    {
+      "case_id": "769281",
+      "title": "Union Of India & Ors v. R. C. Jain & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects source: DDA as statutory body under 1957 Act, issue of local authority status under Sec 3(31), and holding that it is a local authority."
+    },
+    {
+      "case_id": "770220",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding are directly supported by the source text, accurately reflecting the trial, conviction, appeal, and acquittal."
+    },
+    {
+      "case_id": "777303",
+      "title": "Safiya Bee v. Mohd. Vajahath Hussain @ Fasi, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are accurately supported by the source text."
+    },
+    {
+      "case_id": "783590",
+      "title": "State Of U.P v. Laxmi Brahman & Anr, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are accurately drawn from and supported by the source text."
+    },
+    {
+      "case_id": "784921",
+      "title": "Air India Statutory Corporation v. United Labour Union & Ors, 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Holding says 'dismissed' but court gave modified Article 142 directions, changing absorption date to Dec 9, 1976."
+    },
+    {
+      "case_id": "78882931",
+      "title": "Mafatalal Industries Ltd. Etc v. Union Of India Etc. Etc, 2019",
+      "verdict": "partial",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Source text is fragmentary; Supreme Court's final holding on excise refund not clearly stated. Summary presents High Court's disputed view as Supreme Court's holding."
+    },
+    {
+      "case_id": "793747",
+      "title": "Gulab Chand Upadhyaya v. State Of U.P. & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding are directly supported by the source text without invention or distortion."
+    },
+    {
+      "case_id": "801705",
+      "title": "Dev Dutt v. Union Of India & Ors, 2020",
+      "verdict": "unfaithful",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Appellant's name 'Dev Dutt' is not in source text; fact invented."
+    },
+    {
+      "case_id": "80596",
+      "title": "Manak Lal v. Dr. Prem Chand, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects source facts, issues, and holding without invention or distortion."
+    },
+    {
+      "case_id": "81544",
+      "title": "Municipal Corporation Of Greater v. The Industrial Development, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding accurately reflect the source text, including the Section 126(1) issue and dismissal for delay/laches."
+    },
+    {
+      "case_id": "832592",
+      "title": "State Of A.P v. Gourishetty Mahesh & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are directly supported by the source text without invention or distortion."
+    },
+    {
+      "case_id": "834893",
+      "title": "Hari Ram & Anr v. State Of Haryana & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, the legal issue, and the holding are accurately drawn from the source text without invention or distortion."
+    },
+    {
+      "case_id": "853800",
+      "title": "Hridaya Rangan Pd. Verma & Ors v. State Of Bihar & Anr, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are accurately derived from the source text with no fabrication or distortion."
+    },
+    {
+      "case_id": "866760",
+      "title": "Nika Ram v. The State Of Himachal Pradesh, 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Outcomes correct, but sentence reduction was not due to inadmissible confession; it was reduced as the case didn't merit death penalty."
+    },
+    {
+      "case_id": "877414",
+      "title": "Kailash v. Nanhku & Ors, 2020",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Holding omits court's conclusions on issues 1 and 2—applicability of CPC and override by HC rules—capturing only the directory nature."
+    },
+    {
+      "case_id": "877826",
+      "title": "National Insurance Co.Ltd v. Sinitha & Ors, 2020",
+      "verdict": "unfaithful",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Holding inverts outcome: source analysis indicates Section 163A is no-fault liability, not fault liability as summary states."
+    },
+    {
+      "case_id": "882187",
+      "title": "J.N. Srivastava v. Union Of India & Anr, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding accurately reflect the source text without invention or distortion."
+    },
+    {
+      "case_id": "885425",
+      "title": "U.P. Pollution Control Board v. Modi Distillery & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects source facts, issues, and holding. Appeal allowed, officials prosecutable under s.47."
+    },
+    {
+      "case_id": "888207",
+      "title": "Capt.M. Paul Anthony v. Bharat Gold Mines Ltd. & Anr, 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Key facts and issues are accurate, but holding invents ungrounded specifics; 'no fresh departmental inquiry' contradicts Single Judge's liberty to initiate fresh proceedings."
+    },
+    {
+      "case_id": "89510185",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding are directly supported by the source text with no fabrication."
+    },
+    {
+      "case_id": "919241",
+      "title": "",
+      "verdict": "unfaithful",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Summary introduces parties (ONGC, SAW Pipes), specific facts (casing pipes, refunded amounts) not in source; holding oversimplifies nuanced Section 74 analysis."
+    },
+    {
+      "case_id": "925351",
+      "title": "Hoosein Kasam Dada Ltd v. The State Of Madhya Pradesh, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding accurately reflect the source. Minor amount notation ('58,657.140' vs '58,657/40') is a trivial formatting difference."
+    },
+    {
+      "case_id": "926132",
+      "title": "Cooper Engineering Limited v. Shri P. P. Mundhe, 2019",
+      "verdict": "partial",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Names 'Cooper Engineering Limited' and 'Shri P. P. Mundhe' not in source; core issue and holding faithfully stated."
+    },
+    {
+      "case_id": "93485004",
+      "title": "Sunil Kumar v. Pyar Mohd & Ors, 2020",
+      "verdict": "unfaithful",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary fabricates appellant's name as 'Sunil Kumar,' which does not appear in the source text."
+    },
+    {
+      "case_id": "965558",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding are supported by the source text with correct direction."
+    },
+    {
+      "case_id": "970047",
+      "title": "Secretary, Jaipur Development v. Daulat Mal Jain, 2019",
+      "verdict": "unfaithful",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Holding unverifiable from truncated source; specific 250 sq. yds./original rate relief not supported. Analysis suggests rejection, not modified relief."
+    },
+    {
+      "case_id": "974607",
+      "title": "Suryalakshmi Cotton Mills Ltd v. Rajvir Industries Ltd. & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are directly supported by the source text with no fabrication or misstatement."
+    },
+    {
+      "case_id": "979053",
+      "title": "Mandir Shree Sitaramji Alias v. Land Acquisition Collector & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are directly supported by the source text without invention or distortion."
+    },
+    {
+      "case_id": "981029",
+      "title": "Madan & Co v. Wazir Jaivir Chand, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding accurately reflect the source text, with no invented or misstated details."
+    },
+    {
+      "case_id": "1297602",
+      "title": "",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": false,
+      "holding_accurate": true,
+      "justification": "Second issue is loosely framed; Supreme Court primarily addressed High Court jurisdictional overreach, not Appellate Court correctness as a distinct issue."
+    },
+    {
+      "case_id": "1001801",
+      "title": "State Of Maharashtra & Ors v. Santosh Shankar Acharya, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects the Full Bench ruling, the two legal issues litigated, and the Supreme Court's dismissal of appeals upholding that ruling."
+    },
+    {
+      "case_id": "1008845",
+      "title": "Commissioner Of Police, Bombay v. Gordhandas Bhanji, 2019",
+      "verdict": "partial",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key fact cites 'November 20, 1947' for the cancellation, but the source dates it September 27/30, 1947; other facts, issues, and holding are accurate."
+    },
+    {
+      "case_id": "1017570",
+      "title": "M/S. The Malabar Industrial Co v. Commissioner Of Income-Tax, 2020",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Minor drift: 'sold' overstates 'agreement for sale'; compensation purpose oversimplified by omitting 'and other liabilities'."
+    },
+    {
+      "case_id": "1033301",
+      "title": "R. P. Kapur v. The State Of Punjab, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects the key facts, the single legal issue framed, and the holding (appeal dismissed) as stated in the source."
+    },
+    {
+      "case_id": "1053139",
+      "title": "State Of Punjab & Ors v. M/S. Surinder Kumar & Co. & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are supported by the source text with no invention or distortion."
+    },
+    {
+      "case_id": "106337101",
+      "title": "Raghbir Singh Sehrawat v. State Of Haryana & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are accurately drawn from the source text with no fabrication or misstatement."
+    },
+    {
+      "case_id": "1068306",
+      "title": "Hemant Dhasmana v. Central Bureau Of Investigation, 2020",
+      "verdict": "unfaithful",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Appellant's name 'Hemant Dhasmana' is fabricated; source never identifies the appellant by name."
+    },
+    {
+      "case_id": "1084618",
+      "title": "Ramesh Hiranand Kundanmal v. Municipal Corporation Of Greater, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are directly supported by and accurately reflect the source text."
+    },
+    {
+      "case_id": "108931933",
+      "title": "Sumit Passi @ Sonu v. State Of Haryana, 2020",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary omits fines and default stipulations but otherwise accurately reflects source."
+    },
+    {
+      "case_id": "1089905",
+      "title": "Bansraj Laltaprasad Mishra v. Stanley Parker Jones, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issue, and holding are directly supported by the source text with no inventions or distortions."
+    },
+    {
+      "case_id": "1125141",
+      "title": "Chander Shekhar @ Shekhar v. State Of Nct Of Delhi, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are directly supported by the source text."
+    },
+    {
+      "case_id": "113267195",
+      "title": "Yogesh Singh v. Mahabeer Singh & Ors, 2020",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Source text is truncated; final holding is not explicitly stated, only implied by analysis direction."
+    },
+    {
+      "case_id": "1135657",
+      "title": "K.T.M.T.M. Abdul Kayoom & Anr v. Commissioner Of Income-Tax, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issue, and holding are directly supported by the source text."
+    },
+    {
+      "case_id": "1157378",
+      "title": "State Of Andhra Pradesh & Ors v. Chitra Venkata Rao, 2019",
+      "verdict": "partial",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Respondent's name 'Chitra Venkata Rao' is not in source text; otherwise accurate."
+    },
+    {
+      "case_id": "1163239",
+      "title": "S. Varadarajan v. State Of Madras, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects acquittal on Section 363 charge, correctly identifies 'taking' issue under Section 361, and faithfully captures the court's reasoning."
+    },
+    {
+      "case_id": "1182839",
+      "title": "Skandia Insurance Co. Ltd v. Kokilaben Chandravadan & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects key facts, legal issue, and holding from source text."
+    },
+    {
+      "case_id": "1183527",
+      "title": "Ramu Alias Ram Kumar & Others v. Jagannath, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding accurately reflect the source text with no invention or misstatement."
+    },
+    {
+      "case_id": "1189707",
+      "title": "Raipur Development Authority v. Chokhamal Contractors Etc. Etc, 2019",
+      "verdict": "unfaithful",
+      "grounded": false,
+      "issues_accurate": false,
+      "holding_accurate": false,
+      "justification": "Summary is entirely fabricated; source concerns arbitration awards and reasons, not attempted murder or bail."
+    },
+    {
+      "case_id": "1198673",
+      "title": "Mrs. Assia v. State Of Kerala & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding accurately reflect the source text with no inventions or distortions."
+    },
+    {
+      "case_id": "1198914",
+      "title": "United India Insurance Co. Ltd v. Anubai Gopichand Thakare & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issue, and holding are directly supported by the source text without invention."
+    },
+    {
+      "case_id": "1203897",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately captures referred questions 1(a) and 2, and the court's holdings match the source."
+    },
+    {
+      "case_id": "1217564",
+      "title": "1340 Shri Chintaman Rao & Another v. The State Of Madhya Pradesh, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issue, and holding accurately match source; Sattedars and coolies correctly held not workers."
+    },
+    {
+      "case_id": "1219209",
+      "title": "Rajendra Prasad v. Narcotic Cell Through Its Officer, 2019",
+      "verdict": "partial",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Appellant's name 'Rajendra Prasad' is invented; not in source. Legal issue and holding are accurate."
+    },
+    {
+      "case_id": "1233720",
+      "title": "State Of Tamil Nadu v. Hind Stone Etc, 2019",
+      "verdict": "partial",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts include unsupported 'lack of systematic mining practices' claim not in source; legal issues and holding are accurate."
+    },
+    {
+      "case_id": "1240174",
+      "title": "Indira Nehru Gandhi v. Raj Narain & Anr, 2019",
+      "verdict": "partial",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Name 'Indira Nehru Gandhi' and '1971 elections' not in source text; drawn from outside knowledge. Holding and issues accurate."
+    },
+    {
+      "case_id": "1250592",
+      "title": "The Commissioner Of Income-Tax v. Swadeshi Cotton & Flour Mills, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Facts, issue, and holding all match the source. The court affirmed the High Court, attributing liability to 1949 and allowing the deduction in 1950-51."
+    },
+    {
+      "case_id": "1257907",
+      "title": "State Of Kerala v. [UNKNOWN], 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects source: key facts, issue, and holding all supported by text."
+    },
+    {
+      "case_id": "1259215",
+      "title": "",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Source text is cut off; final holding on multiplier, deductions, and interest rate not clearly stated, though issues are accurate."
+    },
+    {
+      "case_id": "1266121",
+      "title": "The Automobile Products Of India v. Rukmaji Bala & Others(, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding are directly supported by the source text."
+    },
+    {
+      "case_id": "127405",
+      "title": "Ghurey Lal v. State Of U.P, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding accurately reflect the source text without invention or distortion."
+    },
+    {
+      "case_id": "1276295",
+      "title": "D. N. Chanchala v. State Of Mysore & Ors. Etc.(With, 2019",
+      "verdict": "unfaithful",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Summary claims r.3 residence requirement was held valid, but source says court declined to decide it."
+    },
+    {
+      "case_id": "1277731",
+      "title": "Northern India Caterers v. Lt. Governor Of Delhi, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are supported by the source. Review dismissed, original judgment on service-not-sale upheld correctly."
+    },
+    {
+      "case_id": "1289506",
+      "title": "Challapalli Sugar Ltd v. The Commissioner Of Income Tax, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects facts, both legal issues, and court's holdings on interest capitalization and wealth-tax deduction."
+    },
+    {
+      "case_id": "1294854",
+      "title": "S.P. Gupta v. President Of India & Ors, 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Key facts and issues are supported, but the specific holding about Article 222 and the circular's intent cannot be verified from the provided source text."
+    },
+    {
+      "case_id": "1298157",
+      "title": "Nagar Rice & Flour Miills & Ors v. N. Teekappa Gowda & Bros. & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding are supported by and consistent with the source text."
+    },
+    {
+      "case_id": "1298319",
+      "title": "State Of Nagaland v. Lipok Ao & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, the legal issue, and the holding are supported by the source text."
+    },
+    {
+      "case_id": "130470",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issue, and holding are accurately drawn from the source."
+    },
+    {
+      "case_id": "1318639",
+      "title": "Subramanium Sethuraman v. State Of Maharashtra & Anr, 2020",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary adds 'cheque that was dishonored' not explicitly stated in source; otherwise faithful."
+    },
+    {
+      "case_id": "1327885",
+      "title": "Kusum Ingots & Alloys Ltd v. Pennar Peterson Securities Ltd, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects facts, issues, and holding; minor imprecision on timing of SICA declaration is non-material."
+    },
+    {
+      "case_id": "1329788",
+      "title": "Mohmed Inayatullah v. The State Of Maharashtra, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are accurately drawn from the source text without invention or distortion."
+    },
+    {
+      "case_id": "1334665",
+      "title": "State Of Travancore-Cochin v. The Bombay Co. Ltd.State Of, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are accurately drawn from the source, with no invention or distortion."
+    },
+    {
+      "case_id": "1363234",
+      "title": "Indra Sawhney Etc. Etc v. Union Of India & Others, Etc, 2019",
+      "verdict": "unfaithful",
+      "grounded": false,
+      "issues_accurate": false,
+      "holding_accurate": false,
+      "justification": "Summary invents facts about attempted murder/bail; source is Mandal Commission reservation case."
+    },
+    {
+      "case_id": "1367797",
+      "title": "State Of Uttar Pradesh & Ors v. Harish Chandra Singh, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are directly supported by the source text with no fabrication or distortion."
+    },
+    {
+      "case_id": "1378939",
+      "title": "Union Of India v. Ram Samujh & Anr, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding accurately reflect the source text with no invention or distortion."
+    },
+    {
+      "case_id": "1404216",
+      "title": "State Of Bihar & Ors v. Shiva Bhikshuk Mishra, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding are supported by source. Minor phrasing imprecision does not mislead on substance."
+    },
+    {
+      "case_id": "141148",
+      "title": "State Of U.P v. Ashok Kumar Srivastava, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding accurately reflect the source text without invention or distortion."
+    },
+    {
+      "case_id": "1417795",
+      "title": "Sheikhupura Transport Co. Ltd v. Northern India Transport, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are directly supported by the source text."
+    },
+    {
+      "case_id": "1421992",
+      "title": "Karnani Properties Ltd v. Commissioner Of Income Tax, West, 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": false,
+      "holding_accurate": true,
+      "justification": "Issue omits s. 9, which was central—High Court held income assessable under s. 9, key dispute in case."
+    },
+    {
+      "case_id": "1422834",
+      "title": "State Of Rajasthan & Ors v. Basant Nahata, 2020",
+      "verdict": "unfaithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Holding is internally contradictory: 'allowed the appeal, setting aside High Court' reverses it, yet asserts Section 22-A is ultra vires—same conclusion High Court reached. Outcome direction misstated."
+    },
+    {
+      "case_id": "1426113",
+      "title": "Dinesh Singh v. State Of U.P, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding are directly supported by the source text with no fabrication or misstatement."
+    },
+    {
+      "case_id": "1429052",
+      "title": "State Of Orissa & Anr v. Saroj Kumar Sahoo, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Summary accurately reflects source: facts, issues, and holding all supported by text."
+    },
+    {
+      "case_id": "1430396",
+      "title": "The Commissioner, Hindu v. Sri Lakshmindra Thirtha Swamiar, 2019",
+      "verdict": "partial",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Source text cuts off mid-analysis; specific sections and Section 76(1) tax ruling not stated in provided source."
+    },
+    {
+      "case_id": "143379",
+      "title": "Ram & Shyam Company v. State Of Haryana & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding accurately reflect the source text without invention or distortion."
+    },
+    {
+      "case_id": "145221297",
+      "title": "Rajamma v. Kerala State Housing Board",
+      "verdict": "unfaithful",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Invents petitioner's name and 'Kerala State Housing Board'; misstates holding—says recovery 'after limitation period' was valid, but court held it was within limitation."
+    },
+    {
+      "case_id": "1467661",
+      "title": "Commissioner Of Income-Tax v. Ahmedbhai Umarbhai & Co., Bombay, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are supported by and directly drawn from the source text."
+    },
+    {
+      "case_id": "1504198",
+      "title": "Samant N. Balakrishna Etc v. George Fernandez & Ors. Etc, 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Source indicates case is under consideration on appeal; no final holding of dismissal stated in text."
+    },
+    {
+      "case_id": "1521407",
+      "title": "Kalyan Chandra Sarkar v. Rajesh Ranjan @ Pappu Yadav & Anr, 2020",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Holding mischaracterizes outcome: Court stayed High Court's bail grant and directed custody, did not 'dismiss' bail application."
+    },
+    {
+      "case_id": "1528551",
+      "title": "Ram Murti v. Bhola Nath & Anr, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding are directly supported by the source text."
+    },
+    {
+      "case_id": "1557228",
+      "title": "Vijay Narayan Thatte & Ors v. State Of Maharashtra & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding are supported by source. Notification dated 30.10.2006 correctly held time-barred; appeal allowed."
+    },
+    {
+      "case_id": "1563564",
+      "title": "State Of Punjab & Ors v. Ram Lubhaya Bagga Etc. Etc, 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Holding misstates one subset: court did NOT direct Escorts-rate reimbursement; it ordered AIIMS rates in main appeals."
+    },
+    {
+      "case_id": "1565060",
+      "title": "Haji Abdul Gaffar v. Income-Tax Officer, \"E\"-Ward, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding are directly supported by the source text without invention or distortion."
+    },
+    {
+      "case_id": "1568935",
+      "title": "Aflatoon & Others v. Lt. Governor Of Delhi & Others, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are directly supported by the source text without invention or distortion."
+    },
+    {
+      "case_id": "1577937",
+      "title": "Burmah Shell Oil Storage v. Burmah Shell Management Staff, 2019",
+      "verdict": "unfaithful",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Holding fabricates subcategories (Foremen Tank Farm, Wadilube plant) absent from source and reverses outcomes (e.g., Transport Engineer, District Engineers)."
+    },
+    {
+      "case_id": "1589001",
+      "title": "Hari Ram v. State Of Rajasthan & Anr, 2020",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Source text truncated; final operative holding (appeal allowed, remitted to Board) not visible, though analysis direction is consistent."
+    },
+    {
+      "case_id": "159121041",
+      "title": "",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": false,
+      "holding_accurate": false,
+      "justification": "Issues reverse alter ego direction; holding asserted but source truncated without explicit final decision."
+    },
+    {
+      "case_id": "1591400",
+      "title": "",
+      "verdict": "unfaithful",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Invented appellant name 'Sukanya Holdings Pvt. Ltd.' not found anywhere in source text."
+    },
+    {
+      "case_id": "1594211",
+      "title": "Damodar S.Prabhu v. Sayed Babalal H, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding accurately reflect the source text without invention or distortion."
+    },
+    {
+      "case_id": "1600644",
+      "title": "Rajesh Kumar Aggarwal & Ors v. K.K. Modi & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are directly supported by the source text without invention or distortion."
+    },
+    {
+      "case_id": "1603652",
+      "title": "Dr. Dinesh Kumar & Ors v. Motilal Nehru Medical College, 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Holding correctly states old rules apply, but fabricates specific directive admitting petitioners; source only finds 50% non-reserved admissions invalid."
+    },
+    {
+      "case_id": "1614118",
+      "title": "Dilip N. Shroff v. Joint Commissioner Of Income Tax, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding direction are supported by the source text."
+    },
+    {
+      "case_id": "1619412",
+      "title": "Laxman Sakharam Salvi & Others v. Balkrishna Balvant Ghatage, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are directly supported by the source text with no fabrication."
+    },
+    {
+      "case_id": "1629177",
+      "title": "The Tata Iron & Steel Co., Ltd v. The State Of Bihar, 2019",
+      "verdict": "partial",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Company name 'Tata Iron & Steel Co.' is not in source; drawn from outside knowledge, though legal issues and holding direction are accurate."
+    },
+    {
+      "case_id": "1629479",
+      "title": "Suresh Koshy George v. The University Of Kerala & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding accurately reflect the source text with no fabrication or distortion."
+    },
+    {
+      "case_id": "1644526",
+      "title": "Jai Prakash v. State, 2019",
+      "verdict": "partial",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Source says illicit relation was 'suspected', not confirmed; summary states it as fact."
+    },
+    {
+      "case_id": "1646640",
+      "title": "Union Of India & Anr v. Cynamide India Ltd. & Anr, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding are directly supported by the source text's analysis and reasoning."
+    },
+    {
+      "case_id": "1657816",
+      "title": "Gaya Prasad Ramlal v. State Of Maharashtra, 2019",
+      "verdict": "unfaithful",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Appellant is Gaya Prasad (accused No. 5), not Habib Ahmed's brother; key_facts misidentifies the appellant."
+    },
+    {
+      "case_id": "1659348",
+      "title": "Kusheshwar Dubey v. Bharat Coking Coal Ltd. & Ors, 2019",
+      "verdict": "partial",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Employer's name 'Bharat Coking Coal Ltd.' is not mentioned in the source; rest is accurate."
+    },
+    {
+      "case_id": "1662853",
+      "title": "State Of Punjab v. Dharam Singh, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding accurately reflect the source text without invention or reversal."
+    },
+    {
+      "case_id": "166513655",
+      "title": "",
+      "verdict": "unfaithful",
+      "grounded": false,
+      "issues_accurate": false,
+      "holding_accurate": true,
+      "justification": "Second legal issue is fabricated: 'heinous crime' for bail not in source; inaccurately claims Section 307 conviction upheld despite acquittal."
+    },
+    {
+      "case_id": "1672252",
+      "title": "Organo Chemical Industries & Anr v. Union Of India & Ors, 2019",
+      "verdict": "unfaithful",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Invents company name 'Organo Chemical Industries' and penalty amount 'Rs. 94,996.80' not found in source."
+    },
+    {
+      "case_id": "1705853",
+      "title": "Manohar Singh Marwaha v. State Of M.P. & Ors, 2020",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts, legal issues, and holding align with source. 'Allowed' petitions reasonably equates to quashing; jurisdiction and colourable exercise grounds supported."
+    },
+    {
+      "case_id": "1706613",
+      "title": "Sh. Satish Mehra v. Delhi Administration & Anr, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are directly supported by the source text without invention or distortion."
+    },
+    {
+      "case_id": "1708066",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding are directly supported by the source text with correct outcome direction."
+    },
+    {
+      "case_id": "1708306",
+      "title": "State Of Rahjasthan v. Puti Construction Co. Ltd, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Key facts, legal issues, and holding direction are all supported by the source text's analysis paragraphs."
+    },
+    {
+      "case_id": "1708604",
+      "title": "Sita Ram & Ors v. Moti Lal Nehru Farmers Training, 2020",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": false,
+      "justification": "Holding imprecise: Court modified Labour Court award (replaced reinstatement with compensation), did not 'set aside' entire award."
+    },
+    {
+      "case_id": "171510013",
+      "title": "Mohanlal Shamji Soni v. Union Of India & Another, 2019",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": false,
+      "holding_accurate": true,
+      "justification": "First issue misstates that Trial Court 'allowed' prosecution's application; source shows Trial Court rejected it, only High Court allowed."
+    },
+    {
+      "case_id": "1715196",
+      "title": "State Of Punjab v. Labour Court, Jullundur & Ors, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holdings accurately reflect the source text with no invention or distortion."
+    },
+    {
+      "case_id": "1718643",
+      "title": "Dulichand Lakshminarayan v. The Commissioner Of, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding are directly supported by the source text with no fabrication or misstatement."
+    },
+    {
+      "case_id": "172430630",
+      "title": "South Asia Lpg Company Private v. Competition Commission Of India, 2020",
+      "verdict": "unfaithful",
+      "grounded": false,
+      "issues_accurate": false,
+      "holding_accurate": false,
+      "justification": "Source text contains only a header; all facts, issues, and holding are fabricated, not grounded."
+    },
+    {
+      "case_id": "1738333",
+      "title": "Madhavrao Jiwaji Rao Scindia v. Sambhajirao Chandrojirao Angre, 2019",
+      "verdict": "partial",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "'Using trust funds' is not stated in source; the allegation was creating false tenancy documents, not misusing funds."
+    },
+    {
+      "case_id": "1747487",
+      "title": "Hori Ram Singh v. King-Emperor, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, issues, and holding are directly supported by the source text without invention or distortion."
+    },
+    {
+      "case_id": "1747577",
+      "title": "Satwant Singh Sawhney v. D. Ramarathnam, Assistant, 2019",
+      "verdict": "partial",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Petitioner names added from outside source; Art.14 holding not explicitly stated in source; issues and Art.21 holding are supported."
+    },
+    {
+      "case_id": "1773590",
+      "title": "",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All facts, issues, and holding align with source; appeal by ITO was dismissed, correctly described as upholding High Court."
+    },
+    {
+      "case_id": "1787020",
+      "title": "Board Of Trustees Of The Port Of v. Dilipkumar Raghavendranath, 2019",
+      "verdict": "unfaithful",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "First respondent's name 'Dilipkumar Raghavendranath Nadkarni' is invented; not in source."
+    },
+    {
+      "case_id": "1788142",
+      "title": "Raghubans Mani Prasad Narain v. Hardeo Singh & Ors, 2019",
+      "verdict": "unfaithful",
+      "grounded": false,
+      "issues_accurate": false,
+      "holding_accurate": false,
+      "justification": "Source text only says 'I agree'; all facts, issues, and holding details are fabricated."
+    },
+    {
+      "case_id": "1800832",
+      "title": "",
+      "verdict": "partial",
+      "grounded": true,
+      "issues_accurate": false,
+      "holding_accurate": true,
+      "justification": "Third legal issue is not genuinely litigated; source doesn't question validity of respondent's purchase as a standalone issue."
+    },
+    {
+      "case_id": "1826622",
+      "title": "United India Insurance Co. Ltd v. Shri Gian Chand & Others, 2019",
+      "verdict": "unfaithful",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Appellant identified as 'United India Insurance Co. Ltd.' but source never names the appellant; only refers to 'Insurance Company'."
+    },
+    {
+      "case_id": "1835803",
+      "title": "Mahendra Pratap Singh v. Sarju Singh & Anr, 2019",
+      "verdict": "partial",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Appellant's name 'Mahendra Pratap Singh' is fabricated; source only says 'appellant'. Legal issues and holding are accurate."
+    },
+    {
+      "case_id": "1841921",
+      "title": "Satvinder Kaur v. State, 2019",
+      "verdict": "unfaithful",
+      "grounded": false,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "Invented appellant's name 'Satvinder Kaur' not found anywhere in source text; other facts and holding are accurate."
+    },
+    {
+      "case_id": "184647",
+      "title": "Raja Peary Mohan Mukerji v. Narendra Nath Mukerji, 2019",
+      "verdict": "faithful",
+      "grounded": true,
+      "issues_accurate": true,
+      "holding_accurate": true,
+      "justification": "All key facts, legal issues, and holding are directly supported by the source text with no invention or distortion."
+    }
+  ]
+}
