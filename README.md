@@ -62,7 +62,7 @@ python evaluation/significance.py \
 
 ## Re-running the pipeline (not tested from this repository)
 
-The full pipeline needs services the saved results do not: Postgres with pgvector, the [Isaacus](https://isaacus.com) API for Kanon-2 embeddings, BGE (`BAAI/bge-large-en-v1.5`, run locally with sentence-transformers), and an LLM provider for question generation, summaries and the audits. The paper used Gemma 4 (31B) for questions, Llama 4 Scout for case summaries and MiniMax M3 as the judge, all through Novita. LLM outputs and API embeddings will not reproduce exactly, so expect small differences from the paper.
+The full pipeline needs services the saved results do not: Postgres with pgvector, the [Isaacus](https://isaacus.com) API for Kanon-2 embeddings, BGE (`BAAI/bge-large-en-v1.5`, run locally with sentence-transformers), and an LLM provider for question generation, summaries and the audits. The paper used Gemma 4 (31B) for questions, Llama 4 Scout for case summaries and MiniMax M3 as the judge, all through Novita. The script defaults match these runs (`--provider novita`; `google/gemma-4-31b-it` for questions, `minimax/minimax-m3` for both judges); other models can be chosen with `--model`. LLM outputs and API embeddings will not reproduce exactly, so expect small differences from the paper.
 
 The order the experiments ran in:
 

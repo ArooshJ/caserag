@@ -20,8 +20,9 @@ PROVIDERS  (--provider)  — both use a Batch API by default ("batch if possible
     gemini : **Gemini Batch API** (google-genai, JSONL) — same machinery as
              ilpcsr_batch_prep_pipeline.py. One request per case returns a JSON object of
              N issue-queries.
-    novita : **Novita Batch API** (OpenAI-compatible, base .../openai/v1, endpoint
-             /v1/batches, <=24h, cheaper + higher rate limit). `--no-batch` switches to
+    novita : default. **Novita Batch API** (OpenAI-compatible, base .../openai/v1, endpoint
+             /v1/batches, <=24h, cheaper + higher rate limit). Default model
+             google/gemma-4-31b-it, as used for the paper's questions. `--no-batch` switches to
              online per-case calls (handy for a small smoke test without the 24h wait).
 
 OUTPUT  (separate file - the single-query dataset is left untouched)
@@ -84,6 +85,7 @@ GOOGLE_MODELS = [
 # provider is chosen by `--provider`, so unknown ids still work. VERIFY exact ids and
 # the base URL against Novita's live catalog before a real run.
 NOVITA_MODELS_EXAMPLES = [
+    "google/gemma-4-31b-it",   # the model used for the paper's questions
     "deepseek/deepseek-v3-0324",
     "meta-llama/llama-4-scout-17b-16e-instruct",
     "qwen/qwen3-32b",
@@ -93,6 +95,7 @@ NOVITA_MODELS_EXAMPLES = [
 # Source: novita.ai/docs/guides/llm-batch-api. Env-overridable.
 NOVITA_BASE_URL = os.environ.get("NOVITA_BASE_URL", "https://api.novita.ai/openai/v1")
 
+DEFAULT_NOVITA_MODEL = "google/gemma-4-31b-it"   # Gemma 4 (31B), as used for the paper's questions
 DEFAULT_GEMINI_MODEL = "gemini-2.5-flash-lite"
 TEMPERATURE = 0.3   # slight headroom for distinct-issue diversity
 
@@ -599,9 +602,10 @@ def _run_novita_batch(model_name: str, batch: List[str], queries_dir: str,
 
 def main():
     ap = argparse.ArgumentParser(description="Multi-query (per-issue) generation for IL-PCSR.")
-    ap.add_argument("--provider", choices=["gemini", "novita"], default="gemini")
+    ap.add_argument("--provider", choices=["gemini", "novita"], default="novita")
     ap.add_argument("--model", type=str, default=None,
-                    help="model id (default: gemini-2.5-flash-lite for gemini; required for novita)")
+                    help="model id (default: google/gemma-4-31b-it for novita, as in the paper; "
+                         "gemini-2.5-flash-lite for gemini)")
     ap.add_argument("--n", type=int, default=2, help="cases to process this run")
     ap.add_argument("--max-queries", type=int, default=MAX_QUERIES_PER_CASE_DEFAULT,
                     help="max distinct queries per case")
@@ -613,11 +617,7 @@ def main():
                     help="preview prompt/JSONL without any LLM call or upload")
     args = ap.parse_args()
 
-    model = args.model or (DEFAULT_GEMINI_MODEL if args.provider == "gemini" else None)
-    if args.provider == "novita" and not model:
-        print("[FAIL] --model is required for --provider novita "
-              f"(examples: {', '.join(NOVITA_MODELS_EXAMPLES)}; verify ids on Novita).")
-        sys.exit(1)
+    model = args.model or (DEFAULT_GEMINI_MODEL if args.provider == "gemini" else DEFAULT_NOVITA_MODEL)
 
     batch = scan_unprocessed(args.queries_dir, args.n)
     if not batch:

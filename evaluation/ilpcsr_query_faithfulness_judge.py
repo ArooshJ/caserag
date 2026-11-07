@@ -30,10 +30,10 @@ DATASET-AGNOSTIC
     dataset; both carry source_case_id + question, and situation fields come from
     test_queries/<source_case_id>.json. sub_query_id / issue are carried through if present.
 
-PROVIDERS  (--provider) — use a DIFFERENT family than the generator (gemini-2.0-flash-lite)
+PROVIDERS  (--provider) — use a DIFFERENT family than the generator (Gemma 4 31B in the paper)
     novita : default. Novita Batch API (OpenAI-compatible, base .../openai/v1). Default model
-             openai/gpt-oss-120b (confirmed batch-eligible, NON-reasoning, strong, different
-             family from the Gemini generator) -> bounded output tokens / cost. A reasoning
+             minimax/minimax-m3, the judge used in the paper (a different family from the
+             Gemma generator). openai/gpt-oss-120b is a non-reasoning alternative. A reasoning
              model (e.g. deepseek-r1-0528) is available via --model but emits far more output
              tokens; deliberately NOT the default.
     gemini : Gemini Batch API (default gemini-2.5-flash), for a second-opinion / cross-judge run.
@@ -78,14 +78,14 @@ GOOGLE_MODELS = [
 # tokens, so they are never the default). The remaining ids mirror the multi-query script's menu
 # and are usable via --no-batch (online); verify their batch-eligibility before batch use.
 NOVITA_BATCH_MODELS = [
-    "openai/gpt-oss-120b", "qwen/qwen3-vl-235b-a22b-instruct", "qwen/qwen3-4b-fp8",
+    "minimax/minimax-m3", "openai/gpt-oss-120b", "qwen/qwen3-vl-235b-a22b-instruct", "qwen/qwen3-4b-fp8",
 ]
 NOVITA_MODELS_EXAMPLES = NOVITA_BATCH_MODELS + [
     "deepseek/deepseek-v3-0324", "meta-llama/llama-4-scout-17b-16e-instruct", "qwen/qwen3-32b",
 ]
 NOVITA_BASE_URL = os.environ.get("NOVITA_BASE_URL", "https://api.novita.ai/openai/v1")
 
-DEFAULT_NOVITA_MODEL = "openai/gpt-oss-120b"   # non-reasoning, confirmed batch-eligible
+DEFAULT_NOVITA_MODEL = "minimax/minimax-m3"   # the judge used in the paper; same as the corpus-summary judge
 DEFAULT_GEMINI_MODEL = "gemini-2.5-flash"
 TEMPERATURE = 0.0   # a judge should be as deterministic as the API allows
 
