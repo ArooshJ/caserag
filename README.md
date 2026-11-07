@@ -1,6 +1,6 @@
-# Evaluating the Limits of Semantic Similarity in Legal Precedent Retrieval
+# Evaluating the Limits of Semantic Similarity in Indian Legal Precedent Retrieval
 
-Code and results behind the paper *Evaluating the Limits of Semantic Similarity in Legal Precedent Retrieval* .
+Code and results behind the paper *Evaluating the Limits of Semantic Similarity in Indian Legal Precedent Retrieval*.
 
 This is not a new retrieval system. The retrieval pipeline here (called CaseRAG in the paper) is an instrument for one question: when similarity-based retrieval misses the precedents that judges cited, is that a loss in the pipeline or a limit of similarity itself? The paper studies this on Indian precedent retrieval, using [IL-PCSR](https://huggingface.co/datasets/Exploration-Lab/IL-PCSR) with 2,199 issue-based questions generated from 622 of its test cases.
 
@@ -100,7 +100,7 @@ If you use this repository, please cite the paper and IL-PCSR:
 
 ```bibtex
 @misc{joshi2026semantic,
-  title  = {Evaluating the Limits of Semantic Similarity in Legal Precedent Retrieval},
+  title  = {Evaluating the Limits of Semantic Similarity in Indian Legal Precedent Retrieval},
   author = {Joshi, Aroosh and Choudhari, Yaddhnyesh and Kanyawar, Aryan and Tiwari, Aditya and Mulla, Nikahat and Halbe, Aparna},
   year   = {2026},
   note   = {Manuscript under review}
