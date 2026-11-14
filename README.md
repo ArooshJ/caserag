@@ -94,23 +94,4 @@ Each script's docstring gives its arguments and default paths. Most default to r
 
 The code is released under the MIT License (see `LICENSE`). IL-PCSR is licensed CC BY-NC-SA 4.0; the generated questions and the saved results derived from it are shared under the same terms.
 
-## Citation
 
-If you use this repository, please cite the paper and IL-PCSR:
-
-```bibtex
-@misc{joshi2026semantic,
-  title  = {Evaluating the Limits of Semantic Similarity in Indian Legal Precedent Retrieval},
-  author = {Joshi, Aroosh and Choudhari, Yaddhnyesh and Kanyawar, Aryan and Tiwari, Aditya and Mulla, Nikahat and Halbe, Aparna},
-  year   = {2026},
-  note   = {Manuscript under review}
-}
-
-@inproceedings{paul2025ilpcsr,
-  title     = {{IL-PCSR}: Legal Corpus for Prior Case and Statute Retrieval},
-  author    = {Paul, S. and Ghumare, D. and Goyal, P. and Ghosh, S. and Modi, A.},
-  booktitle = {Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)},
-  year      = {2025},
-  note      = {arXiv:2511.00268}
-}
-```
